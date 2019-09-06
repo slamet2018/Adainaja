@@ -13,6 +13,12 @@
 					<input type="text" name="telp" value="" placeholder="NO TELP" required="">
 				</div>
 				<div class="field">
+					<input type="text" name="rek" value="" placeholder="NO REK" required="">
+				</div>
+				<div class="field">
+					<input type="text" name="bank" value="" placeholder="JENIS BANK" required="">
+				</div>
+				<div class="field">
 					<input type="email" name="email" value="" placeholder="EMAIL" required="">
 				</div>
 				<div class="field">
