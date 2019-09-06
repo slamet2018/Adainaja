@@ -54,5 +54,6 @@ $route['login']='c_user/login/';
 $route['signup']='c_user/signup/';
 $route['signuser']='c_user/signuser/';
 $route['tes']='c_user/kondisi/';
+$route['signvendor']='c_user/vendor/';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
