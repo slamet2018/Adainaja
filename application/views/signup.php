@@ -1,7 +1,7 @@
 <div class="ui segment middle aligned center aligned stackable grid">
 	<div class="ui four wide column ">
 		<div class="content"><h2>SIGN UP</h2></div>
-		<form class="ui large form" method="post" action="<?php echo base_url().'tes' ?>">
+		<form class="ui large form" method="get" action="<?php echo base_url().'tes' ?>">
 			<div class="ui stacked segment">
 				<div class="field">
 					<input type="text" name="user" value="" placeholder="USERNAME" required="">
