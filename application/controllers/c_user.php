@@ -25,12 +25,17 @@ class  C_user extends CI_Controller {
 	public function kondisi()
 	{
 		$pilih=$this->input->get('pilih');
-		if ($pilih=1) {
+		if ($pilih==1) {
 			redirect('signuser','refresh');
 		}else {
-			echo "string";
-			// redirect('signvendor','refresh');
+			redirect('signvendor','refresh');
 		}
+	}
+	public function vendor()
+	{
+		$this->load->view('header');
+		$this->load->view('signupvendor');
+		$this->load->view('footer');
 	}
 	public function signuser()
 	{
