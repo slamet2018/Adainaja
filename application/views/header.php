@@ -18,21 +18,21 @@
   </script>
 </head>
 <body class="site">
-<div class="ui stackable hehe middle aligned grid">
-
-	<div class="ui blue hehe row middle aligned grid">
-	<div class="thirteen wide column"><h2>AdainAja.com</h2></div>
-	<div class="three wide column left aligned">
-		<a href="<?php echo base_url().'login' ?>" class="ui label"><i class="ui user icon"></i>login</a> |
-		<a href="<?php echo base_url().'signup' ?>" class="ui label"><i class="ui user add icon"></i>Sign in</a>
-	</div>
-	</div>
+	<div class="ui stackable grid">
+		<div class="ui sixteen wide blue column segment">
+			<div class="sixteen wide column"><h1>ADAINAJA</h1></div>
+			<div class="ui hidden divider"></div>
+			<div class="fourteen wide column">
+				<a href="<?php echo base_url().'login' ?>" class="ui inverted button"><i class="ui user icon"></i>login</a> |
+				<a href="<?php echo base_url().'signup' ?>" class="ui inverted button"><i class="ui user add icon"></i>Sign up</a>
+			</div>
+		</div>
 	<div class="row">
 	<div class="ui fluid four item menu stackable grid">
-		<a href="" class="item"><i class="ui home icon"></i>HOME</a>
-		<a href="" class="item"><i class="ui heart icon"></i>WEDDING</a>
-		<a href="" class="item"><i class="ui birthday cake icon"></i>BIRTHDAY</a>
-		<a href="" class="item"><i class="ui building icon"></i>BUILDING ACTIVITY</a>
+		<a href="" class="item"><i class="blue circular ui home icon"></i>HOME</a>
+		<a href="" class="item"><i class="blue circular ui heart icon"></i>WEDDING</a>
+		<a href="" class="item"><i class="blue circular ui birthday cake icon"></i>BIRTHDAY</a>
+		<a href="" class="item"><i class="blue circular ui building icon"></i>BUILDING ACTIVITY</a>
 	</div>
 	</div>
 	</div>
