@@ -63,16 +63,7 @@
       <div><a href="" class="ui positive fluid button">BOOKING</a></div>
     </div>
   	</div>
-	<div class="card">
-    <div class="image">
-      <img src="logoeo.jpg">
-    </div>
-    <div class="extra center aligned">
-      <div><a href="" class="ui positive fluid button">BOOKING</a></div>
-    </div>
-  	</div>
-		</div>
-
+	
 	</div>
 	</div>
 </body>
