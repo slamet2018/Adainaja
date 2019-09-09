@@ -1,21 +1,48 @@
 <div class="ui ordered steps">
   <div class="active step">
     <div class="content">
-      <div class="title">Shipping</div>
-      <div class="description">Choose your shipping options</div>
+      <div class="title">PERTAMA</div>
+      <div class="description">step pertama</div>
     </div>
   </div>
   <div class="step">
     <div class="content">
-      <div class="title">Billing</div>
-      <div class="description">Enter billing information</div>
+      <div class="title">KEDUA</div>
+      <div class="description">step kedua</div>
     </div>
   </div>
   <div class="step">
     <div class="content">
-      <div class="title">Confirm Order</div>
-      <div class="description">Verify order details</div>
+      <div class="title">TERAKHIR</div>
+      <div class="description">ste terakhir</div>
     </div>
   </div>
 </div>
-<div class="ui grid segment center aligned"></div>
+
+<div class="ui grid segment">
+  <div class="four wide column"></div>
+  <div class="ui eight wide column segment">
+    <form class="ui large form">
+      <div class="field">
+        <label class="label">ID ANDA</label>
+        <input type="text" name="id" value="" placeholder="">
+      </div>
+      <div class="field">
+        <label class="label">NAMA ANDA</label>
+        <input type="text" name="nama" value="" placeholder="">
+      </div>
+      <div class="field">
+        <label class="label">ALAMAT ANDA</label>
+       <textarea name="alamat"></textarea>
+      </div>
+      <div class="field">
+        <label class="label">PILIH LOKASI ACARA</label>
+        <select name="lok" class="ui dropdown">
+          <option value="Gedung">GEDUNG</option>
+          <option value="Gedung">LOKASI SENDIRI</option>
+        </select>
+      </div>
+      <button name="send" class="ui blue button fluid"><i class="ui arrow right icon"></i> LANJUT</button>
+    </form>
+  </div>
+</div>
