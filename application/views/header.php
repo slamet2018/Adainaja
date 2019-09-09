@@ -29,8 +29,8 @@
 		</div>
 	<div class="row">
 	<div class="ui fluid four item menu stackable grid">
-		<a href="" class="item"><i class="blue circular ui home icon"></i>HOME</a>
-		<a href="" class="item"><i class="blue circular ui heart icon"></i>WEDDING</a>
+		<a href="<?php echo base_url().'' ?>" class="item"><i class="blue circular ui home icon"></i>HOME</a>
+		<a href="<?php echo base_url().'c_vendor/index' ?>" class="item"><i class="blue circular ui heart icon"></i>WEDDING</a>
 		<a href="" class="item"><i class="blue circular ui birthday cake icon"></i>BIRTHDAY</a>
 		<a href="" class="item"><i class="blue circular ui building icon"></i>BUILDING ACTIVITY</a>
 	</div>
