@@ -1,6 +1,6 @@
 <div class="ui middle aligned center aligned segment stackable grid">
 	<div class="six wide column">
-		<div class="content">SIGN UP CONTENT</div>
+		<div class="content">SIGN UP VENDOR</div>
 		<form class="ui large form" method="post" action="<?php echo base_url() ?>">
 			<div class="ui stacked segment">
 				<div class="field">
