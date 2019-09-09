@@ -18,8 +18,9 @@
   </script>
 </head>
 <body class="site">
-<div class="ui stackable segment middle aligned grid">
-	<div class="blue row">
+<div class="ui stackable hehe middle aligned grid">
+
+	<div class="ui blue hehe row middle aligned grid">
 	<div class="thirteen wide column"><h2>AdainAja.com</h2></div>
 	<div class="three wide column left aligned">
 		<a href="<?php echo base_url().'login' ?>" class="ui label"><i class="ui user icon"></i>login</a> |
