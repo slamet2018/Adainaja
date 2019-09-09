@@ -9,7 +9,7 @@
 	<div class="ui seven cards doubling">
   	<div class="card">
     <div class="image">
-      <img src="logoeo.jpg">
+      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="" class="ui positive fluid button">BOOKING</a></div>
@@ -17,7 +17,7 @@
   	</div>
   	<div class="card">
     <div class="image">
-      <img src="20190608103822_IMG_9110.JPG.jpg">
+      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="" class="ui positive fluid button">BOOKING</a></div>
@@ -25,7 +25,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="logoeo.jpg">
+      <img src="<?php echo base_url().'bahan/logoeo.jpg'?>">
     </div>
     <div class="extra center aligned">
       <div><a href="" class="ui positive fluid button">BOOKING</a></div>
@@ -33,7 +33,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="logoeo.jpg">
+      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="" class="ui positive fluid button">BOOKING</a></div>
@@ -41,7 +41,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="logoeo.jpg">
+      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="" class="ui positive fluid button">BOOKING</a></div>
@@ -49,7 +49,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="logoeo.jpg">
+      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="" class="ui positive fluid button">BOOKING</a></div>
@@ -57,7 +57,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="logoeo.jpg">
+      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="" class="ui positive fluid button">BOOKING</a></div>
@@ -66,5 +66,4 @@
 	
 	</div>
 	</div>
-</body>
-</html>
+</div>
