@@ -61,6 +61,13 @@ class  C_user extends CI_Controller {
 		$this->load->view('transaksi3');
 		$this->load->view('footer');
 	}
+	public function detail()
+	{
+		$this->load->view('header');
+		$this->load->view('detail');
+		$this->load->view('footer');
+	}
+	
 
 }
 
