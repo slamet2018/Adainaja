@@ -34,21 +34,21 @@
 	
 	<!-- menu -->
 	<div class="ui row grid segment">
-		<div class="ui four wide black column segment grid middle aligned">
-			<div class="eight wide column"><i class="ui circular large home icon"></i></div>
-			<div class="five wide column"><h2>HOME</h2></div>
+		<div class="ui four wide  column violet segment grid middle aligned">
+			<div class="eight wide column right aligned"><i class="ui circular large home icon"></i></div>
+			<div class="five wide column left aligned"><h2>HOME</h2></div>
 		</div>
-		<div class="ui four wide black column segment grid middle aligned">
-			<div class="eight wide column"><i class="ui circular large heart icon"></i></div>
-			<div class="five wide column"><h2>WEDDING</h2></div>
+		<div class="ui four wide  column segment grid middle aligned">
+			<div class="eight wide column right aligned"><i class="ui circular large heart icon"></i></div>
+			<div class="five wide column left aligned"><h2>WEDDING</h2></div>
 		</div>
-		<div class="ui four wide black column segment grid middle aligned">
-			<div class="eight wide column"><i class="ui circular large birthday cake icon"></i></div>
-			<div class="five wide column"><h2>BIRTHDAY</h2></div>
+		<div class="ui four wide  column segment grid middle aligned">
+			<div class="eight wide column right aligned"><i class="ui circular large birthday cake icon"></i></div>
+			<div class="five wide column left aligned"><h2>BIRTHDAY</h2></div>
 		</div>
-		<div class="ui four wide black column segment grid middle aligned">
-			<div class="eight wide column"><i class="ui circular large building icon"></i></div>
-			<div class="five wide column"><h2>BUILDING</h2></div>
+		<div class="ui four wide  column segment grid middle aligned">
+			<div class="eight wide column right aligned"><i class="ui circular large building icon"></i></div>
+			<div class="five wide column left aligned"><h2>BUILDING</h2></div>
 		</div>
 	</div>
 	<!-- akhir menu -->
