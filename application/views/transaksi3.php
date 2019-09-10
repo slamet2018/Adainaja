@@ -22,7 +22,7 @@
 <div class="ui grid segment">
   <div class="four wide column"></div>
   <div class="ui eight wide column segment">
-    <form class="ui large form">
+    <form class="ui large form" action="<?php echo base_url().'' ?>">
       <h2>TRANSFER KE </h2>
       <h3>130-2xxxx</h3>
       <div class="field">

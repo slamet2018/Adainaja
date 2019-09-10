@@ -20,10 +20,11 @@
 <body class="site">
 	<div class="ui stackable grid">
 		<div class="ui sixteen wide blue column segment">
-			<div class="sixteen wide column"><h1>ADAINAJA</h1></div>
+			<div class="sixteen wide column segmen">	
+				<h1>ADAINAJA.COM</h1></div>
 			<div class="ui hidden divider"></div>
 			<div class="fourteen wide column">
-				<a href="<?php echo base_url().'login' ?>" class="ui inverted button"><i class="ui user icon"></i>login</a> |
+				<a href="<?php echo base_url().'login' ?>" class="ui inverted button"><i class="ui user icon"></i>login</a> | 
 				<a href="<?php echo base_url().'signup' ?>" class="ui inverted button"><i class="ui user add icon"></i>Sign up</a>
 			</div>
 		</div>
