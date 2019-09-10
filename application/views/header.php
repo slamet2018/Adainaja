@@ -11,10 +11,14 @@
 	<link href="<?php echo base_url().'bahan/sweetalert.css'?>" rel="stylesheet" />
 	<link rel="shortcut icon" type="image/jpg" href="20190608103822_IMG_9110.JPG"/>	
 	<script type="text/javascript">
-    $(document).ready(function(){
-      $('.ui.dropdown').dropdown()
-      ;
-    });
+    	$(document).ready(function(){
+      	$('.ui.dropdown').dropdown();
+    	});
+  </script>
+  <script type="text/javascript">
+  		$('.ui.modal')
+  		.modal()
+		;
   </script>
 </head>
 <body class="site">
@@ -34,21 +38,21 @@
 	
 	<!-- menu -->
 	<div class="ui row grid segment">
-		<div class="ui four wide  column violet segment grid middle aligned">
+		<div class="ui four wide  column segment grid middle aligned">
 			<div class="eight wide column right aligned"><i class="ui circular large home icon"></i></div>
-			<div class="five wide column left aligned"><h2>HOME</h2></div>
+			<div class="five wide column left aligned"><a class="label" href="<?php echo base_url().'' ?>"><h2>HOME</h2></a></div>
 		</div>
 		<div class="ui four wide  column segment grid middle aligned">
 			<div class="eight wide column right aligned"><i class="ui circular large heart icon"></i></div>
-			<div class="five wide column left aligned"><h2>WEDDING</h2></div>
+			<div class="five wide column left aligned"><a class="label" href="<?php echo base_url().'wedding' ?>"><h2>WEDDING</h2></a></div>
 		</div>
 		<div class="ui four wide  column segment grid middle aligned">
 			<div class="eight wide column right aligned"><i class="ui circular large birthday cake icon"></i></div>
-			<div class="five wide column left aligned"><h2>BIRTHDAY</h2></div>
+			<div class="five wide column left aligned"><a class="label" href=""><h2>BIRTHDAY</h2></a></div>
 		</div>
 		<div class="ui four wide  column segment grid middle aligned">
 			<div class="eight wide column right aligned"><i class="ui circular large building icon"></i></div>
-			<div class="five wide column left aligned"><h2>BUILDING</h2></div>
+			<div class="five wide column left aligned"><a class="label" href=""><h2>BUILDING</h2></a></div>
 		</div>
 	</div>
 	<!-- akhir menu -->
