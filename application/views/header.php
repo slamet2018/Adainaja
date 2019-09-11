@@ -37,21 +37,21 @@
 	
 	
 	<!-- menu -->
-	<div class="ui row grid segment column doubling container">
+	<div class="ui equal row grid segment column doubling container">
 		<div class="ui four wide column segment grid middle aligned">
-			<div class="eight wide column right aligned"><i class="ui circular large home icon"></i></div>
+			<div class="eight wide column right aligned"><a href="<?php echo base_url().'' ?>"><i class="ui circular large home inverted icon"></i></a></div>
 			<div class="five wide column left aligned"><a class="label" href="<?php echo base_url().'' ?>"><h2>HOME</h2></a></div>
 		</div>
 		<div class="ui four wide  column segment grid middle aligned">
-			<div class="eight wide column right aligned"><i class="ui circular large heart icon"></i></div>
+			<div class="eight wide column right aligned"><a href="<?php echo base_url().'wedding' ?>"><i class="ui circular large heart inverted icon"></i></a></div>
 			<div class="five wide column left aligned"><a class="label" href="<?php echo base_url().'wedding' ?>"><h2>WEDDING</h2></a></div>
 		</div>
 		<div class="ui four wide  column segment grid middle aligned">
-			<div class="eight wide column right aligned"><i class="ui circular large birthday cake icon"></i></div>
+			<div class="eight wide column right aligned"><i class="ui circular large birthday cake inverted icon"></i></div>
 			<div class="five wide column left aligned"><a class="label" href=""><h2>BIRTHDAY</h2></a></div>
 		</div>
 		<div class="ui four wide  column segment grid middle aligned">
-			<div class="eight wide column right aligned"><i class="ui circular large building icon"></i></div>
+			<div class="eight wide column right aligned"><i class="ui circular large building inverted icon"></i></div>
 			<div class="five wide column left aligned"><a class="label" href=""><h2>BUILDING</h2></a></div>
 		</div>
 	</div>
