@@ -60,7 +60,6 @@ class  C_user extends CI_Controller {
 		$this->load->view('header');
 		$this->load->view('transaksi3');
 		$this->load->view('footer');
-		redirect('c_user/notif','refresh');
 	}
 	public function detail()
 	{
@@ -70,9 +69,7 @@ class  C_user extends CI_Controller {
 	}
 	public function notif()
 	{
-		$this->load->view('header');
 		$this->load->view('notif');
-		$this->load->view('footer');
 	}
 	
 
