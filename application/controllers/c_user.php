@@ -71,7 +71,12 @@ class  C_user extends CI_Controller {
 	{
 		$this->load->view('notif');
 	}
-	
+	public function konfirmasi()
+	{
+		$this->load->view('header');
+		$this->load->view('konfirpaket');
+		$this->load->view('footer');
+	}
 
 }
 
