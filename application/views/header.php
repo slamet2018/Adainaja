@@ -38,7 +38,7 @@
 	
 	<!-- menu -->
 	<div class="ui row grid segment column doubling container">
-		<div class="ui four wide mobile column segment grid middle aligned">
+		<div class="ui four wide column segment grid middle aligned">
 			<div class="eight wide column right aligned"><i class="ui circular large home icon"></i></div>
 			<div class="five wide column left aligned"><a class="label" href="<?php echo base_url().'' ?>"><h2>HOME</h2></a></div>
 		</div>
