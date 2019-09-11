@@ -58,6 +58,7 @@ $route['signvendor']='c_user/vendor/';
 $route['transaksi']='c_user/trans/';
 $route['transaksi2']='c_user/trans2/';
 $route['transaksi3']='c_user/trans3/';
+$route['konfirmasi']='c_user/konfirmasi/';
 $route['wedding']='c_user/detail/';
 $route['homevendor']='c_vendor/index';
 $route['404_override'] = '';
