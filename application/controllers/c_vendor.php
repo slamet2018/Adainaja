@@ -9,6 +9,12 @@ class C_vendor extends CI_Controller {
 		$this->load->view('home_eo');
 		$this->load->view('footer');
 	}
+	public function notif()
+	{
+		$this->load->view('header');
+		$this->load->view('notifikasiorder');
+		$this->load->view('footer');
+	}
 
 }
 
