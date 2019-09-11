@@ -43,6 +43,40 @@ class  C_user extends CI_Controller {
 		$this->load->view('signupuser');
 		$this->load->view('footer');
 	}
+	public function trans()
+	{
+		$this->load->view('header');
+		$this->load->view('transaksi');
+		$this->load->view('footer');
+	}
+	public function trans2()
+	{
+		$this->load->view('header');
+		$this->load->view('transaksi2');
+		$this->load->view('footer');
+	}
+	public function trans3()
+	{
+		$this->load->view('header');
+		$this->load->view('transaksi3');
+		$this->load->view('footer');
+	}
+	public function detail()
+	{
+		$this->load->view('header');
+		$this->load->view('detail');
+		$this->load->view('footer');
+	}
+	public function notif()
+	{
+		$this->load->view('notif');
+	}
+	public function konfirmasi()
+	{
+		$this->load->view('header');
+		$this->load->view('konfirpaket');
+		$this->load->view('footer');
+	}
 
 }
 

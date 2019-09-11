@@ -1,49 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Home EO</title>
-</head>
-<body>
-	<?php include"header.php"; ?>
 
-
-<div class="ui stackable segment">
-	<div class="ui grid">
+	<div class="ui stackable segment grid">
 		<div class="ui three wide column left aligned">
-			<i class="address card icon"></i>
+			<i class="circular address card icon"></i>
 			Nama EO/Vendor
 		</div>
 		<div class="ui three wide column left aligned">
-			<i class="address book icon"></i>
+			<i class="circular address book icon"></i>
 			Nama pemilik
 		</div>
 		<div class="ui three wide column left aligned">
-			<i class="credit card outline icon"></i>
+			<i class="circular credit card outline icon"></i>
 			No.Rekening
 		</div>
 		<div class="ui five wide column"></div>
 		<div class="ui two wide column right aligned">
-			<i class="small sign-in alternate icon"></i>
-		Logout</div>
+			<a href="<?php echo base_url() ?>"><i class="circular small logout alternate icon"></i>
+		Logout</a></div>
 	</div>
-<br><br>
-
-	<div>
-		<div class="ui button">
-		<a href="tambahpaket.php"><i class="ui big plus icon"></i>Tambah Paket</a>
+	<div class="ui hidden divider"></div>
+	<div class="ui container center aligned stackable grid">
+		<button class="ui blue button">
+		<i class="ui big plus icon"></i>Tambah Paket
+	</button>
+	<button class="ui blue button">
+		<i class="ui big eye icon"></i>Tampil Paket
+	</button>
+	<button class="ui blue button">
+		<i class="ui big shopping cart icon"></i>Notifikasi Booking
+	</button>
+	<button class="ui blue button">
+		<i class="ui big edit icon"></i>Edit Profils
+	</button>
 	</div>
-	<div class="ui button">
-		<a href="tampilpaket.php"><i class="ui big eye icon"></i>Tampil Paket</a>
+	<div class="ui hidden divider"></div>
+	<div class="ui segment grid ">
+		<div class="sixteen wide column container">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
 	</div>
-	<div class="ui button">
-		<a href="notifikasieo.php"><i class="ui big shopping cart icon"></i>Notifikasi Booking</a>
-	</div>
-	<div class="ui button">
-		<a href="editprofil.php"><i class="ui big edit icon"></i>Edit Profils</a>
-	</div>
-	</div>
-</div>
-
-	<?php include"footer.php"; ?>
-</body>
-</html>
