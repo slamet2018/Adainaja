@@ -1,4 +1,6 @@
-<div class="ui ordered steps">
+<div class="ui grid container center aligned">
+  <div class="eleven wide column ">
+    <div class="ui ordered steps">
   <div class="active step">
     <div class="content">
       <div class="title">PERTAMA</div>
@@ -18,6 +20,9 @@
     </div>
   </div>
 </div>
+  </div>
+</div>
+
 
 <div class="ui grid segment">
   <div class="four wide column"></div>
