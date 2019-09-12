@@ -1,3 +1,5 @@
+<div class="ui grid container center aligned">
+  <div class="eleven wide column ">
 <div class="ui ordered steps">
   <div class="completed step">
     <div class="content">
@@ -17,6 +19,8 @@
       <div class="description">ste terakhir</div>
     </div>
   </div>
+</div>
+</div>
 </div>
 
 <div class="ui grid segment">
