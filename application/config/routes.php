@@ -62,5 +62,6 @@ $route['konfirmasi']='c_user/konfirmasi/';
 $route['wedding']='c_user/detail/';
 $route['detailpaket']='c_user/detailp/';
 $route['homevendor']='c_vendor/index';
+$route['notifikasio']='c_vendor/notifikasiorder';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
