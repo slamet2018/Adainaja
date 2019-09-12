@@ -25,9 +25,9 @@
 	<button class="ui blue button">
 		<i class="ui big eye icon"></i>Tampil Paket
 	</button>
-	<button class="ui blue button">
+	<a class="ui blue button" href="<?php echo base_url().'notifikasio' ?>">
 		<i class="ui big shopping cart icon"></i>Notifikasi Booking
-	</button>
+	</a>
 	<button class="ui blue button">
 		<i class="ui big edit icon"></i>Edit Profils
 	</button>
