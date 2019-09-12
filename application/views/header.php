@@ -11,49 +11,70 @@
 	<link href="<?php echo base_url().'bahan/sweetalert.css'?>" rel="stylesheet" />
 	<link rel="shortcut icon" type="image/jpg" href="20190608103822_IMG_9110.JPG"/>	
 	<script type="text/javascript">
-    	$(document).ready(function(){
-      	$('.ui.dropdown').dropdown();
-    	});
+    $(document).ready(function(){
+      $('.ui.dropdown').dropdown()
+      ;
+    });
   </script>
-  <script type="text/javascript">
-  		$('.ui.modal')
-  		.modal()
-		;
-  </script>
+  <script>
+ $(document)
+ .ready(function() {
+
+ // fix main menu to page on passing
+ $('.main.menu').visibility({
+ type: 'fixed'
+ });
+ $('.overlay').visibility({
+ type: 'fixed',
+ offset: 80
+ });
+ // lazy load images
+ $('.image').visibility({
+ type: 'image',
+ transition: 'vertical flip in',
+duration: 500
+});
+// show dropdown on hover
+$('.main.menu .ui.dropdown').dropdown({
+on: 'hover'
+});
+})
+;
+</script>
+
 </head>
 <body class="site">
-	<div class="ui stackable grid">
-		<div class="ui row blue grid segment">
-			<div class="four wide column center aligned	">	
-				<h1>ADAINAJA.COM</h1>
-			</div>
-			<!-- <div class="ui hidden divider"></div> -->
-			<div class="eight wide column"></div>
-			<div class="four wide column center aligned">
-				<a href="<?php echo base_url().'login' ?>" class="ui inverted button"><i class="ui user icon"></i>login</a> | 
-				<a href="<?php echo base_url().'signup' ?>" class="ui inverted button"><i class="ui user add icon"></i>Sign up</a>
-			</div>
+	<div class="ui hidden divider"></div>
+<div class="ui container stackable  grid center aligned">
+	<!--  -->
+	<div class="five wide column">
+		<div class="ui fourteen wide column center aligned">
+			<h1 class="ui header">
+ 				<div class="ui massive image">
+					<img class="ui logo" src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
+				</div>
+					ADAINAJA
+			</h1>
 		</div>
-	
-	
-	<!-- menu -->
-	<div class="ui equal row grid segment column doubling container">
-		<div class="ui four wide column segment grid middle aligned">
-			<div class="eight wide column right aligned"><a href="<?php echo base_url().'' ?>"><i class="ui circular large home inverted icon"></i></a></div>
-			<div class="five wide column left aligned"><a class="label" href="<?php echo base_url().'' ?>"><h2>HOME</h2></a></div>
+		<div class="ui dividing raised header"></div>
+		<div class="ui sixteen wide column right floated">
+		<div class="two wide column">
+ 		<a href="<?php echo base_url().'login' ?>" class="item"><i class="user icon"></i>Login</a> | 
+		<a href="<?php echo base_url().'signup' ?>" class="item"><i class="user add icon"></i>Sign up</a>
+ 		</div>
 		</div>
-		<div class="ui four wide  column segment grid middle aligned">
-			<div class="eight wide column right aligned"><a href="<?php echo base_url().'wedding' ?>"><i class="ui circular large heart inverted icon"></i></a></div>
-			<div class="five wide column left aligned"><a class="label" href="<?php echo base_url().'wedding' ?>"><h2>WEDDING</h2></a></div>
-		</div>
-		<div class="ui four wide  column segment grid middle aligned">
-			<div class="eight wide column right aligned"><i class="ui circular large birthday cake inverted icon"></i></div>
-			<div class="five wide column left aligned"><a class="label" href=""><h2>BIRTHDAY</h2></a></div>
-		</div>
-		<div class="ui four wide  column segment grid middle aligned">
-			<div class="eight wide column right aligned"><i class="ui circular large building inverted icon"></i></div>
-			<div class="five wide column left aligned"><a class="label" href=""><h2>BUILDING</h2></a></div>
-		</div>
+		
 	</div>
-	<!-- akhir menu -->
 </div>
+
+
+ <div class="ui borderless main ui teal four item computer three item mobile inverted menu">
+ <div class="ui text container">
+ <a href="<?php echo base_url().'' ?>" class="item">HOME</a>
+ <a href="<?php echo base_url().'wedding' ?>" class="item">WEDDING</a>
+ <a href="#" class="item">BIRTHDAY</a>
+ <a href="#" class="item">BUILDING</a>
+ 
+ 
+ </div>
+ </div>
