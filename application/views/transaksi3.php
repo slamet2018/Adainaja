@@ -34,6 +34,9 @@
         <input type="file" name="bayar" value="" placeholder="" class="ui button">
       </div>
       <button name="send" class="ui blue button fluid"><i class="ui arrow right icon"></i> LANJUT</button>
+      <div class="ui hidden divider"></div>
+      <div class="ui center aligned"><a href="<?php echo base_url().'detailpaket' ?>" class="item centered">upload nanti</a></div>
+      
     </form>
   </div>
 </div>
