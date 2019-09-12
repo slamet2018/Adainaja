@@ -1,6 +1,6 @@
 <div class="site-content"></div>
-<div class="ui segment row">
-	<div class="ui middle aligned grid">
+<div class="ui segment row ">
+	<div class="ui middle aligned grid ">
 		<div class="sixteen wide teal inverted column">
 			<div class="ui three wide column">
 				<h2>CALL CENTER</h2>
