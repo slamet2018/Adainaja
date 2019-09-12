@@ -45,12 +45,12 @@ on: 'hover'
 </head>
 <body class="site">
 	<!-- <div class="bg"></div> -->
-	<div class="ui hidden divider">
-<div class="ui stackable  grid center aligned bg">
-	<!--  -->
-	<div class="five wide column grid">
-		<div class="ui sixteen wide column center aligned">
-			<h1 class="ui white header">
+	
+<div class="ui stackable grid center aligned bg">
+	<div class="ui hidden divider"></div>
+	<div class="five wide column">
+		<div class="ui fourteen wide column center aligned">
+			<h1 class="ui header">
  				<div class="ui massive circular image">
 					<img class="ui logo" src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
 				</div>
