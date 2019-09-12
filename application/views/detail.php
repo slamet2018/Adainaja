@@ -12,7 +12,7 @@
       <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
     </div>
     <div class="extra center aligned">
-      <div><a href="<?php echo base_url().'konfirmasi' ?>" class="ui positive fluid button">BOOKING</a></div>
+      <div><a href="<?php echo base_url().'detailpaket' ?>" class="ui positive fluid button">BOOKING</a></div>
     </div>
   	</div>
   	<div class="card">
