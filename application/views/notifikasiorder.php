@@ -13,9 +13,9 @@
 			No.Rekening
 		</div>
 		<div class="ui five wide column"></div>
-		<div class="ui two wide column right aligned">
+		<a class="ui two wide column right aligned" href="<?php echo base_url() ?>">
 			<i class="small sign-in alternate icon"></i>
-		Logout</div>
+		Logout</a>
 	</div>
 <br><br>
 
