@@ -44,13 +44,14 @@ on: 'hover'
 
 </head>
 <body class="site">
-	<div class="ui hidden divider"></div>
-<div class="ui container stackable  grid center aligned">
+	<!-- <div class="bg"></div> -->
+	<div class="ui hidden divider">
+<div class="ui stackable  grid center aligned bg">
 	<!--  -->
-	<div class="five wide column">
-		<div class="ui fourteen wide column center aligned">
-			<h1 class="ui header">
- 				<div class="ui massive image">
+	<div class="five wide column grid">
+		<div class="ui sixteen wide column center aligned">
+			<h1 class="ui white header">
+ 				<div class="ui massive circular image">
 					<img class="ui logo" src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
 				</div>
 					ADAINAJA
@@ -68,7 +69,8 @@ on: 'hover'
 </div>
 
 
- <div class="ui borderless main ui teal four item computer three item mobile inverted menu">
+ <div class="ui borderless main ui teal four item computer three item mobile inverted menu" style="box-shadow:5px 2px 5px 2px silver;
+  }">
  <div class="ui text container">
  <a href="<?php echo base_url().'' ?>" class="item">HOME</a>
  <a href="<?php echo base_url().'wedding' ?>" class="item">WEDDING</a>
