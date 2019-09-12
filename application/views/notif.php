@@ -12,7 +12,7 @@
             title: 'Already Email',
             text:  'hehe',
             type: 'success',
-            timer: 3000,
+            timer: 30,
             showConfirmButton: true
         });   
   },10);  
