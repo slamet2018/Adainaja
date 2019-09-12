@@ -78,6 +78,14 @@ class  C_user extends CI_Controller {
 		$this->load->view('footer');
 	}
 
+
+	public function detailp()
+	{
+		$this->load->view('header');
+		$this->load->view('detail_paket');
+		$this->load->view('footer');
+
+	}
 }
 
 /* End of file c_user */
