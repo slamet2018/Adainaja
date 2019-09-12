@@ -17,7 +17,7 @@
         });   
   },10);  
   window.setTimeout(function(){ 
-    window.location.replace('../');
+    window.location.replace('../detailpaket');
   } ,3000); 
   </script>" ?>
   <h1 align="center" style="background-color: blue;color: white;margin-top: 20%;">berhasil</h1>
