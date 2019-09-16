@@ -60,6 +60,7 @@ $route['transaksi2']='c_user/trans2/';
 $route['transaksi3']='c_user/trans3/';
 $route['konfirmasi']='c_user/konfirmasi/';
 $route['wedding']='c_user/detail/';
+$route['notiflogin']='c_user/modallogin/';
 $route['detailpaket']='c_user/detailp/';
 $route['homevendor']='c_vendor/index';
 $route['notifikasio']='c_vendor/notifikasiorder';
