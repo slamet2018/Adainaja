@@ -1,7 +1,7 @@
-<div class="ui tiny modal">
+<div class="ui tiny modal computer tiny modal mobile tiny modal tablet">
     <div class="ui icon header center aligned">
       <i class="ui huge check green icon"></i>
-      sukses
+      BERHASIL ['NAMA USER/VENDOR']
       <br>
       <br>
        <div class="ui action">
