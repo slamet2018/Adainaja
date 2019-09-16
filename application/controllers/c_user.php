@@ -69,7 +69,9 @@ class  C_user extends CI_Controller {
 	}
 	public function notif()
 	{
-		$this->load->view('notif');
+		$this->load->view('header');
+		$this->load->view('notif_signin');
+		$this->load->view('footer');
 	}
 	public function konfirmasi()
 	{
