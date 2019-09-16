@@ -52,7 +52,7 @@
   color: white;
 }
 .bg{
-	background-image: url('<?php echo base_url();?>/bahan/be.jpg');
+	background-image: url('<?php echo base_url();?>/bahan/bi.jpg');
 }
 .white{
 	color: white;
