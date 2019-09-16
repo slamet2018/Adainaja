@@ -1,7 +1,7 @@
 <div class="ui middle aligned center aligned stackable grid">
 	<div class="four wide column">
 		<div class="content"><h2>SILAHKAN LOGIN</h2></div>
-		<form class="ui large form">
+		<form class="ui large form" data-target=".tiny modal" action="<?php echo base_url().'notiflogin' ?>">
 		<div class="ui stacked segment">
 			<div class="field">
 				<div class="ui left icon input">
