@@ -15,9 +15,11 @@ class C_vendor extends CI_Controller {
 		$this->load->view('notifikasiorder');
 		$this->load->view('footer');
 	}
-	public function FunctionName($value='')
+	public function notifvendor()
 	{
-		# code...
+		$this->load->view('header');
+		$this->load->view('notif_vendor');
+		$this->load->view('footer');
 	}
 
 }

@@ -5,7 +5,7 @@
       <br>
       <br>
        <div class="ui action">
-          <a href="<?php echo base_url() ?>" class="ui green ok inverted button fluid">
+          <a href="<?php echo base_url().'homevendor' ?>" class="ui green ok inverted button fluid">
         Yes
       </a>
     </div>
