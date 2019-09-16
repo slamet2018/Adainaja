@@ -9,7 +9,7 @@
 	<div class="ui seven cards doubling">
   	<div class="card">
     <div class="image">
-      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
+      <img src="<?php echo base_url().'image/weding.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="<?php echo base_url().'detailpaket' ?>" class="ui positive fluid button">BOOKING</a></div>
@@ -17,7 +17,7 @@
   	</div>
   	<div class="card">
     <div class="image">
-      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
+      <img src="<?php echo base_url().'image/weding.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="<?php echo base_url().'transaksi' ?>" class="ui positive fluid button">BOOKING</a></div>
@@ -25,7 +25,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="<?php echo base_url().'bahan/logoeo.jpg'?>">
+      <img src="<?php echo base_url().'image/weding.jpg'?>">
     </div>
     <div class="extra center aligned">
       <div><a href="<?php echo base_url().'transaksi' ?>" class="ui positive fluid button">BOOKING</a></div>
@@ -33,7 +33,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
+      <img src="<?php echo base_url().'image/weding.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="<?php echo base_url().'transaksi' ?>" class="ui positive fluid button">BOOKING</a></div>
@@ -41,7 +41,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
+      <img src="<?php echo base_url().'image/weding.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="<?php echo base_url().'transaksi' ?>" class="ui positive fluid button">BOOKING</a></div>
@@ -49,7 +49,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
+      <img src="<?php echo base_url().'image/weding.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="<?php echo base_url().'transaksi' ?>" class="ui positive fluid button">BOOKING</a></div>
@@ -57,7 +57,7 @@
   	</div>
 	<div class="card">
     <div class="image">
-      <img src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
+      <img src="<?php echo base_url().'image/weding.jpg' ?>">
     </div>
     <div class="extra center aligned">
       <div><a href="<?php echo base_url().'transaksi' ?>" class="ui positive fluid button">BOOKING</a></div>
