@@ -57,7 +57,7 @@ $('.ui.modal')
 	<!-- <div class="bg"></div> -->
 	
 <div class="ui stackable grid center aligned bg">
-	<div class="ui hidden divider"></div>
+	<div class="ui hidden divider"></div><br>
 	<div class="five wide column">
 		<div class="ui fourteen wide column center aligned">
 			<h1 class="ui header">
@@ -70,8 +70,8 @@ $('.ui.modal')
 		<div class="ui dividing raised header"></div>
 		<div class="ui sixteen wide column right floated">
 		<div class="two wide column">
- 		<a href="<?php echo base_url().'login' ?>" class="item"><i class="user icon"></i>Login</a> | 
-		<a href="<?php echo base_url().'signup' ?>" class="item"><i class="user add icon"></i>Sign up</a>
+ 		<a href="<?php echo base_url().'login' ?>" class="a item"><i class="user icon"></i>Login</a> | 
+		<a href="<?php echo base_url().'signup' ?>" class="a item"><i class="user add icon"></i>Sign up</a>
  		</div>
 		</div>
 		
