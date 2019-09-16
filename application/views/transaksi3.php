@@ -26,7 +26,7 @@
 <div class="ui grid segment">
   <div class="four wide column"></div>
   <div class="ui eight wide column segment">
-    <form method="get" class="ui large form" action="<?php echo base_url().'c_user/notif' ?>">
+    <form method="get" class="ui large form" action="<?php echo base_url().'' ?>">
       <h2>TRANSFER KE </h2>
       <h3>130-2xxxx</h3>
       <div class="field">
