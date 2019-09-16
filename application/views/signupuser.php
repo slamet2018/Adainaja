@@ -1,7 +1,7 @@
 <div class="ui segment middle aligned center aligned stackable grid">
 	<div class="ui six wide column ">
 		<div class="content"><h2>SIGN UP USER</h2></div>
-		<form class="ui large form" method="post" action="<?php echo base_url() ?>">
+		<form class="ui large form" method="post" action="<?php echo base_url().'notifiuser' ?>">
 			<div class="ui stacked segment">
 				<div class="field">
 					<input type="text" name="nik" value="" placeholder="NIK" required="">
