@@ -86,6 +86,12 @@ class  C_user extends CI_Controller {
 		$this->load->view('footer');
 
 	}
+	public function modallogin()
+	{
+		$this->load->view('header');
+		$this->load->view('notif_login');
+		$this->load->view('footer');
+	}
 }
 
 /* End of file c_user */
