@@ -4,20 +4,20 @@
 		<h4>preview paket</h4>
 		<div class="ui doubling five cards">
 			<div class="ui card">
-				<img class="ui huge image" src="<?php echo base_url().'logoaa.png' ?>">
+				<img class="ui huge image" src="<?php echo base_url().'image/weding.jpg' ?>">
 			</div>
 
 			<div class="ui card">
-				<img class="ui huge image" src="<?php echo base_url().'logoaa.png' ?>">
+				<img class="ui huge image" src="<?php echo base_url().'image/weding.jpg' ?>">
 			</div>
 			<div class="ui card">
-				<img class="ui huge image" src="<?php echo base_url().'logoaa.png' ?>">
+				<img class="ui huge image" src="<?php echo base_url().'image/weding.jpg' ?>">
 			</div>
 			<div class="ui card">
-				<img class="ui huge image" src="<?php echo base_url().'logoaa.png' ?>">
+				<img class="ui huge image" src="<?php echo base_url().'image/weding.jpg' ?>">
 			</div>
 			<div class="ui card">
-				<img class="ui huge image" src="<?php echo base_url().'logoaa.png' ?>">
+				<img class="ui huge image" src="<?php echo base_url().'image/weding.jpg' ?>">
 			</div>
 		</div>
 		<h4>Lokasi Pihak Terkait</h4>
