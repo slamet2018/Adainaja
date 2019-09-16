@@ -41,6 +41,16 @@ on: 'hover'
 })
 ;
 </script>
+<script type="text/javascript">
+	$('.ui.basic.modal')
+  .modal('show')
+;
+$('.ui.modal')
+  .modal()
+;
+     $('.ui.basic.modal')
+      .modal('show');
+</script>
 
 </head>
 <body class="site">
