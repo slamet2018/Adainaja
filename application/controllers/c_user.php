@@ -117,6 +117,12 @@ class  C_user extends CI_Controller {
 			echo "gagal";
 		}
 	}
+	public function building()
+	{
+		$this->load->view('header');
+		$this->load->view('building');
+		$this->load->view('footer');
+	}
 }
 
 /* End of file c_user */
