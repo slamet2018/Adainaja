@@ -64,7 +64,7 @@ $('.ui.modal')
  				<div class="ui massive circular image">
 					<img class="ui logo" src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
 				</div>
-					ADAINAJA
+					<a href="<?php echo base_url(); ?>" class="a">ADAINAJA</a>
 			</h1>
 		</div>
 		<div class="ui dividing raised header"></div>
