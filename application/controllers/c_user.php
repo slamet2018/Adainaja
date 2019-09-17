@@ -79,6 +79,12 @@ class  C_user extends CI_Controller {
 		$this->load->view('notif_signin');
 		$this->load->view('footer');
 	}
+	public function notifuser()
+	{
+		$this->load->view('header');
+		$this->load->view('notif_user');
+		$this->load->view('footer');
+	}
 	public function konfirmasi()
 	{
 		$this->load->view('header');
@@ -99,6 +105,17 @@ class  C_user extends CI_Controller {
 		$this->load->view('header');
 		$this->load->view('notif_login');
 		$this->load->view('footer');
+	}
+	public function pilih()
+	{
+		$user=$this->input->post('username');
+		if ($user=="user") {
+			redirect('notifikasi','refresh');
+		}elseif ($user=="vendor") {
+			redirect('notifvendor','refresh');
+		}else{
+			echo "gagal";
+		}
 	}
 }
 
