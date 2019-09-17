@@ -56,6 +56,7 @@ $route['signuser']='c_user/signuser/';
 $route['tes']='c_user/kondisi/';
 $route['signvendor']='c_user/vendor/';
 $route['pilihan']='c_user/pilih/';
+$route['building']='c_user/building/';
 $route['transaksi']='c_user/trans/';
 $route['transaksi2']='c_user/trans2/';
 $route['transaksi3']='c_user/trans3/';
