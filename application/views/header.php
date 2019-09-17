@@ -84,8 +84,8 @@ $('.ui.modal')
  <div class="ui text container">
  <a href="<?php echo base_url().'' ?>" class="item">HOME</a>
  <a href="<?php echo base_url().'wedding' ?>" class="item">WEDDING</a>
- <a href="#" class="item">BIRTHDAY</a>
- <a href="#" class="item">BUILDING</a>
+ <a href="" class="item">BIRTHDAY</a>
+ <a href="<?php echo base_url().'building' ?>" class="item">BUILDING</a>
  
  
  </div>
