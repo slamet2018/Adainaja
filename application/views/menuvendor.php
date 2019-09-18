@@ -35,7 +35,7 @@
 			</a>
 		</div>
 		<div class="four wide column">
-			<a href="#" class="ui blue button fluid">
+			<a href="<?php echo base_url().'editvendor' ?>" class="ui blue button fluid">
 				<i class="ui big edit icon"></i>Edit Profils
 			</a>
 		</div>
