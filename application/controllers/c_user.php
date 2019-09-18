@@ -123,6 +123,13 @@ class  C_user extends CI_Controller {
 		$this->load->view('building');
 		$this->load->view('footer');
 	}
+	public function birthday()
+	{
+		$this->load->view('header');
+		$this->load->view('detailbd');
+		$this->load->view('footer');
+	}
+	
 }
 
 /* End of file c_user */
