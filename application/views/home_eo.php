@@ -19,12 +19,12 @@
 	</div>
 	<div class="ui hidden divider"></div>
 	<div class="ui container center aligned stackable grid">
-		<button class="ui blue button">
+		<a href="<?php echo base_url().'tambahpaket' ?>" class="ui blue button">
 		<i class="ui big plus icon"></i>Tambah Paket
-	</button>
-	<button class="ui blue button">
+	</a>
+	<a href="<?php echo base_url().'tampilpaket' ?>" class="ui blue button">
 		<i class="ui big eye icon"></i>Tampil Paket
-	</button>
+	</a>
 	<a class="ui blue button" href="<?php echo base_url().'notifikasio' ?>">
 		<i class="ui big shopping cart icon"></i>Notifikasi Booking
 	</a>
