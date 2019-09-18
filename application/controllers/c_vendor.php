@@ -38,6 +38,13 @@ class C_vendor extends CI_Controller {
 		$this->load->view('tampilpaket');
 		$this->load->view('footer');
 	}
+	public function edit()
+	{
+		$this->load->view('header');
+		$this->load->view('menuvendor');
+		$this->load->view('editprofile');
+		$this->load->view('footer');
+	}
 	
 }
 
