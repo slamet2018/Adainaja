@@ -2,7 +2,7 @@
 
 	<h3><i class="big table icon"></i>TABLE</h3>
 
-	<table border="1" class="ui eight column table">
+	<table border="1" class="ui eight cell mobile unstackable table">
 		<thead>
 			<tr>
 				<th>ID Paket</th>
@@ -25,7 +25,7 @@
 				<td>Paket Platinum</td>
 				<td>Rp 2.500.000</td>
 				<td>struk01.png</td>
-				<td>Bp.Alpha 08512345</td>
+				<td><a href="https://wa.me/6281227561832?text=Selamat siang...">[Bp.Alpha 08512345]</a></td>
 			</tr>
 		</tbody>
 	</table>
