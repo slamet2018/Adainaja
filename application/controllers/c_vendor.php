@@ -6,24 +6,28 @@ class C_vendor extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('header');
+		$this->load->view('menuvendor');
 		$this->load->view('home_eo');
 		$this->load->view('footer');
 	}
 	public function notifikasiorder()
 	{
 		$this->load->view('header');
+		$this->load->view('menuvendor');
 		$this->load->view('notifikasiorder');
 		$this->load->view('footer');
 	}
 	public function notifvendor()
 	{
 		$this->load->view('header');
+		$this->load->view('menuvendor');
 		$this->load->view('notif_vendor');
 		$this->load->view('footer');
 	}
 	public function tambahpaket()
 	{
 		$this->load->view('header');
+		$this->load->view('menuvendor');
 		$this->load->view('tambahpaket');
 		$this->load->view('footer');
 	}
