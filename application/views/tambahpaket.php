@@ -26,7 +26,7 @@
 					<input type="text" name="nama_paket" value="" placeholder="Nama Paket" required="">
 				</div>
 				<div class="field">
-					<select name="jenis_paket" required="">
+					<select name="jenis_paket" required="" class="ui dropdown">
 						<option value="">Jenis Paket</option>
 						<option value="w">Wedding</option>
 						<option value="bd">Birthday</option>
@@ -37,7 +37,7 @@
 					<input type="text" name="harga_paket" value="" placeholder="Harga Paket" required="">
 				</div>
 				<div class="field">
-					<input type="file" name="gambar_paket" value="" required="">
+					<input type="file" name="gambar_paket" value="" required="" class="file">
 				</div>
 				<div class="field">
 					<textarea name="alamat" placeholder="ALAMAT" required=""></textarea>
