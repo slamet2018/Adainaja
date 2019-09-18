@@ -31,6 +31,13 @@ class C_vendor extends CI_Controller {
 		$this->load->view('tambahpaket');
 		$this->load->view('footer');
 	}
+	public function tampilpaket()
+	{
+		$this->load->view('header');
+		$this->load->view('menuvendor');
+		$this->load->view('tampilpaket');
+		$this->load->view('footer');
+	}
 	
 }
 
