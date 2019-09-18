@@ -17,11 +17,14 @@
 				<div class="field">
 					<input type="text" name="harga_paket" value="" placeholder="Harga Paket" required="">
 				</div>
-				<div class="field">
+				<div class="field">Input Gambar Preview Paket
+					<input type="file" name="gambar_paket" value="" required="" class="file">
+					<input type="file" name="gambar_paket" value="" required="" class="file">
+					<input type="file" name="gambar_paket" value="" required="" class="file">
 					<input type="file" name="gambar_paket" value="" required="" class="file">
 				</div>
 				<div class="field">
-					<textarea name="alamat" placeholder="ALAMAT" required=""></textarea>
+					<textarea name="lokasi" placeholder="LOKASI" required=""></textarea>
 				</div>
 				<div class="field">
 					<button type="" class="ui positive button fluid" name="send">LANJUT</button>
