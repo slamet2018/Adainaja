@@ -106,18 +106,13 @@
                     </div>
                     <div class="ui fluid vertical menu" id="verticalMenu">
                         <a href="dashboard.html" class="item"><i class="dashboard icon"></i> <span>Dashboard</span></a>
-                        <a href="form.html" class="item"><i class="book icon"></i> <span>Form</span></a>
-                        <a href="table.html" class="item"><i class="table icon"></i> <span>Table</span></a>
-                        <a href="chart.html" class="item"><i class="bar chart icon"></i> <span>Chart</span></a>
-                        <a href="card.html" class="item"><i class="block layout icon"></i> <span>Card</span></a>
-                        <a href="progress.html" class="item"><i class="tasks icon"></i> <span>Progress Bar</span></a>
-                        <a href="index.html" class="item"><i class="sign in icon"></i> <span>Login</span></a>
-                        <a href="dashboard.html" class="item"><i class="file icon"></i> <span>Sample</span></a>
-                        <a href="dashboard.html" class="item"><i class="file icon"></i> <span>Sample</span></a>
+                        <a href="" class="item"><i class="book icon"></i> <span>user</span></a>
+                        <a href="" class="item"><i class="table icon"></i> <span>vendor/member</span></a>
+                        <a href="" class="item"><i class="bar chart icon"></i> <span>admin</span></a>
+                        <a href="" class="item"><i class="block layout icon"></i> <span>control</span></a>
                     </div>
                 </div>
             </div>
-                    
 
     <script type="text/javascript" src="<?php echo base_url().'assets/js/jquery.min.js'?>"></script>
     <script type="text/javascript" src="<?php echo base_url().'assets/js/semantic.min.js'?>"></script>
