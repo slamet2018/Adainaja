@@ -1,23 +1,4 @@
- <div class="ui stackable segment grid">
-		<div class="ui three wide column left aligned">
-			<i class="circular address card icon"></i>
-			Nama EO/Vendor
-		</div>
-		<div class="ui three wide column left aligned">
-			<i class="circular address book icon"></i>
-			Nama pemilik
-		</div>
-		<div class="ui three wide column left aligned">
-			<i class="circular credit card outline icon"></i>
-			No.Rekening
-		</div>
-		<div class="ui five wide column"></div>
-		<div class="ui two wide column right aligned">
-			<a href="<?php echo base_url() ?>"><i class="circular small logout alternate icon"></i>
-		Logout</a></div>
-	</div>
-
-	<div class="ui middle aligned center aligned segment stackable grid">
+ 	<div class="ui middle aligned center aligned segment stackable grid">
 	<div class="six wide column">
 		<h3 class="content">TAMBAH PAKET</h3>
 		<form class="ui large form" method="post" action="<?php echo base_url().'notifvendor' ?>">
