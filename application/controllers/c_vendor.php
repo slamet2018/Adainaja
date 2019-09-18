@@ -21,7 +21,13 @@ class C_vendor extends CI_Controller {
 		$this->load->view('notif_vendor');
 		$this->load->view('footer');
 	}
-
+	public function tambahpaket()
+	{
+		$this->load->view('header');
+		$this->load->view('tambahpaket');
+		$this->load->view('footer');
+	}
+	
 }
 
 /* End of file c_vendor.php */
