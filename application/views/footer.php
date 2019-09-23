@@ -69,4 +69,8 @@
   width: 100%;
   height: auto;
 }
+.merahm{
+  background-color: #FFEADB ;
+  color: black;
+}
 </style>
