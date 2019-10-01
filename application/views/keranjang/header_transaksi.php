@@ -6,8 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'bahan/semantic.min.css'?> ">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'bahan/header.min.css'?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'bahan/style.css'?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/sticky.css'?>">
 	<script type="text/javascript" src="<?php echo base_url().'bahan/jquery.min.js'?>"></script>
 	<script type="text/javascript" src="<?php echo base_url().'bahan/semantic.min.js'?>"></script>
+	<script type="text/javascript" src="<?php echo base_url().'assets/js/sticky.js'?>"></script>
 	<link href="<?php echo base_url().'bahan/sweetalert.css'?>" rel="stylesheet" />
 	<link rel="shortcut icon" type="image/jpg" href="20190608103822_IMG_9110.JPG"/>	
 	<script type="text/javascript">
