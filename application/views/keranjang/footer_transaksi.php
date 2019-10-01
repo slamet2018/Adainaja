@@ -95,4 +95,9 @@
   color:blue;
   text-shadow: all;
 }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 </style>
