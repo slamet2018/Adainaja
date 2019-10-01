@@ -17,8 +17,8 @@
     <![endif]-->
   </head>
   <body>
- <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
-  <div class="container">
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+<div class="container">
   	<div class="row">
   		<div class="col-xs-3 text-center">
   			<ul class="pager">
@@ -26,11 +26,10 @@
 			</ul>
   		</div>
   		<div class="col-xs-4 text-left">
- 				 <h2 class="biru">KERANJANG</h2>
+ 				 <h2>KERANJANG</h2>
   		</div>
   	</div>
   </div>
 </nav>
-  
 
    
