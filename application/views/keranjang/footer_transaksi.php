@@ -1,3 +1,5 @@
+  
+    
 </body>
 </html>
 <style type="text/css" media="screen">
@@ -58,5 +60,12 @@
 .merahm{
   background-color: #FFEADB ;
   color: black;
+}
+@media (min-height: 320px) {
+  .ui.footer.form-page { /* Increased specificity for SO snippet priority */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }
 </style>
