@@ -1,5 +1,27 @@
-  
+ <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="checkbox text-success">
+          <label><input type="checkbox" name="">
+          PILIH SEMUA</label>
+        </div>
+      </div>
+      <div class="col-xs-4 text-right">
+        Subtotal <p class="text-danger ">Rp. xxx</p>
+      </div>
+      <div class="col-xs-4 text-center">
+        
+        <a href="#" class="btn btn-danger">CHECKOUT</a>
+      </div>
+    </div>
     
+  </div>
+</nav>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="<?php echo base_url().'boot/js/jquery.min.js' ?>"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="<?php echo base_url().'boot/js/bootstrap.min.js' ?>"></script>
 </body>
 </html>
 <style type="text/css" media="screen">
@@ -7,6 +29,7 @@
 	height: 100%;
 	width: 100%;
 }
+
 .site{
     display: flex;
     min-height: 10vh;
@@ -67,5 +90,9 @@
     bottom: 0;
     width: 100%;
   }
+}
+.biru{
+  color:blue;
+  text-shadow: all;
 }
 </style>
