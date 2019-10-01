@@ -74,5 +74,6 @@ $route['tambahpaket']='c_vendor/tambahpaket';
 $route['tampilpaket']='c_vendor/tampilpaket';
 $route['editvendor']='c_vendor/edit';
 $route['dashbor']='c_admin/index';
+$route['transaksi']='c_user/keranjang';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
