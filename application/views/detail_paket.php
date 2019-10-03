@@ -26,8 +26,7 @@
 		<div class="ui hidden divider"></div>
 			<div class="ui stackable container grid center aligned">
 				<div class="fourteen wide column"></div>
-				<div class="five wide column center aligned"><a href="<?php echo base_url().'konfirmasi' ?>" class="ui green button fluid"><i class="calendar outline icon"></i>BOOKING NOW</a></div>
-				<div class="five wide column center aligned"><a href="<?php echo base_url().'transaksi3' ?>" class="ui green button fluid"><i class="upload icon"></i>UPLOAD PEMBAYARAN</a></div>
+				<div class="five wide column center aligned"><a href="<?php echo base_url().'pembayaran' ?>" class="ui green button fluid"><i class="calendar outline icon"></i>BOOKING NOW</a></div>
 			</div><br>
 		<h4>Jika sudah Order, tunggu notifikasi untuk pembayaran dan informasi lebih lanjut</h4>
 		<div class="ui hidden divider"></div>
