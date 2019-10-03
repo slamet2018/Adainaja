@@ -9,8 +9,11 @@
 			<h3>Keranjang</h3>
 		</div>
 	</div>
-		<div class="ui nine wide column left aligned merahm grid">
-			<div class="fourteen wide column">hehe</div>
-			<div class="two wide column right floated"><i class="ui angle right icon"></i></div>
-		</div>
+
+	<div class="ui nine wide column left aligned merahm grid">
+		<div class="eight wide column"><i class="ui circular address card icon"></i>Jl.Pemesan no 12</div>
+		<div class="two wide column right floated"><i class="ui angle right icon"></i></div>
+	</div>
+	
+	<div></div>
 </div>
