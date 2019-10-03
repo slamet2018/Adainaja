@@ -51,7 +51,11 @@
         </div>
 </div>
 
+<div class="ui grid">
+        <div class="sixteen wide column">
+                <?php echo $map['html'];?>                
+        </div>
+</div>
 
-<?php echo $map['html'];?>
 </body>
 </html>
