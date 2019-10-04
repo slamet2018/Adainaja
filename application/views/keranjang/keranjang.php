@@ -23,7 +23,9 @@
 <div class="container">
 	<div class="row">
 		<div class="col-xs-5 col-sm-2">
-			<img src="<?php echo base_url().'image/birthday.jpg' ?>" alt="" class="img-thumnail img-responsive">
+			<a href="#">
+				<img src="<?php echo base_url().'image/birthday.jpg' ?>" alt="" class="img-thumnail img-responsive">
+			</a>
 		</div>
 		<div class="col-xs-7 col-sm-10">
 			<p>KETERANGAN PRODUK</p>
