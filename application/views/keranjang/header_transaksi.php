@@ -28,7 +28,6 @@
   document.execCommand("copy");
 
   /* Alert the copied text */
-  alert("Copied the text" + copyText.value);
 }
     </script>
   </head>
