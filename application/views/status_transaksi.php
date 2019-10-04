@@ -1,6 +1,6 @@
 <br>
 <div class="ui grid">
-	<div class="ui sixteen teal column">
+	<div class="ui sixteen wide teal column">
 		<div class="">
 			<h3><i class="address card icon"></i>Nama Vendor</h3>
 			<h4><i class="shopping basket icon"></i>Nama Paket</h4>
@@ -9,7 +9,7 @@
 </div>
 <br><br>
 <div class="ui grid">
-	<div class="ui sixteen column">
+	<div class="ui sixteen wide column">
 		<div class="">
 			<h3>STATUS TRANSAKSI</h3>
 		</div><hr>
