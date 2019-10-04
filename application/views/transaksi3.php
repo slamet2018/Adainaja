@@ -1,46 +1,14 @@
-<div class="ui grid container center aligned">
-  <div class="eleven wide column ">
-<div class="ui ordered steps">
-  <div class="completed step">
-    <div class="content">
-      <div class="title">PERTAMA</div>
-      <div class="description">step pertama</div>
-    </div>
-  </div>
-  <div class="completed step">
-    <div class="content">
-      <div class="title">KEDUA</div>
-      <div class="description">step kedua</div>
-    </div>
-  </div>
-  <div class="active step">
-    <div class="content">
-      <div class="title">TERAKHIR</div>
-      <div class="description">ste terakhir</div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-<div class="ui grid segment">
-  <div class="four wide column"></div>
-  <div class="ui eight wide column segment">
-
-    <form method="get" class="ui large form" action="<?php echo base_url().'index.php/c_user/notif' ?>">
-
-    <form method="get" class="ui large form" action="<?php echo base_url().'' ?>">
-
-      <h2>TRANSFER KE </h2>
-      <h3>130-2xxxx</h3>
-      <div class="field">
-        <label class="label">UPLOAD BUKTI PEMBAYARAN</label>
-        <input type="file" name="bayar" value="" placeholder="" class="ui button">
+<div class="cotainer">
+  <div class="row">
+    <form role="form" action="<?php echo base_url().'transaksi' ?>">
+      <div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+      <div class="form-group">
+        <label for="exampleInputFile" class="text-info">Upload Bukti Pembayaran</label>
+        <input type="file" name="" value="" placeholder="" id="exampleInputFile">
+        <p class="help-block">pastikan foto bukti transfer anda benar</p>
       </div>
-      <button name="send" class="ui blue button fluid"><i class="ui arrow right icon"></i> LANJUT</button>
-      <div class="ui hidden divider"></div>
-      <div class="ui center aligned"><a href="<?php echo base_url().'detailpaket' ?>" class="item centered">upload nanti</a></div>
-      
+      <button type="sumbit" class="btn btn-primary btn-block">UPLOAD FILE</button>
+    </div>
     </form>
   </div>
 </div>
