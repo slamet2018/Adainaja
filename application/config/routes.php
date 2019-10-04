@@ -76,5 +76,6 @@ $route['keranjang']='c_user/keranjang/';
 $route['editvendor']='c_vendor/edit';
 $route['dashbor']='c_admin/index';
 $route['status_transaksi']='c_user/status_trans/';
+$route['daftar_transaksi']='c_user/daftar_trans/';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
