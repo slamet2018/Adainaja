@@ -141,6 +141,12 @@ class  C_user extends CI_Controller {
 		$this->load->view('status_transaksi');
 		$this->load->view('footer');
 	}
+	public function daftar_trans()
+	{
+		$this->load->view('header');
+		$this->load->view('daftar_transaksi');
+		$this->load->view('footer');
+	}
 	
 	
 }
