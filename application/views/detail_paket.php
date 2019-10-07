@@ -21,6 +21,10 @@
 			</div>
 		</div>
 		<h4>Lokasi Pihak Terkait</h4>
+		<!-- 16:9 aspect ratio -->
+		<div class="embed-responsive embed-responsive-1by1">
+		  <iframe class="embed-responsive-item" src="https://www.google.co.id/maps/"></iframe>
+		</div>
 		<div><i class="map marker alternate icon"></i>Gawis Kulon Gondowulan Kepil</div><br>
 		<div><i class="dollar sign icon"></i> 120.00</div><br> 
 		<div class="ui hidden divider"></div>

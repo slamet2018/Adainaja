@@ -1,24 +1,28 @@
 <div class="ui grid container center aligned">
   <div class="eleven wide column ">
     <div class="ui ordered steps">
+
   <div class="active step">
     <div class="content">
       <div class="title">PERTAMA</div>
       <div class="description">step pertama</div>
     </div>
   </div>
+
   <div class="step">
     <div class="content">
       <div class="title">KEDUA</div>
       <div class="description">step kedua</div>
     </div>
   </div>
+
   <div class="step">
     <div class="content">
       <div class="title">TERAKHIR</div>
       <div class="description">ste terakhir</div>
     </div>
   </div>
+  
 </div>
   </div>
 </div>

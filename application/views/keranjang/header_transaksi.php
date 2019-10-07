@@ -32,22 +32,14 @@
     </script>
   </head>
   <body>
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-<div class="container">
-  	<div class="row">
-  		<div class="col-xs-2 text-center">
-  			<ul class="pager">
- 				 <li class="previous"><a href="<?php echo base_url() ?>">&larr; home</a></li>
-			</ul>
-  		</div>
-  		<div class="col-xs-6 text-left">
- 				 <h2> KERANJANG</h2>
-  		</div>
-      <div class="col-xs-4 justify-content-left">
-        <h2>Adainaja</h2>
-      </div>
-  	</div>
+<div class="jumbotron">
+  <div class="container">
+    <h1>AdainAja</h1>
+    <p>Halaman Keranjang</p>
+    <p>
+      <a class="btn btn-primary btn-lg">Checklist Penerimaan pengiriman</a>
+    </p>
   </div>
-</nav>
+</div>
 
    

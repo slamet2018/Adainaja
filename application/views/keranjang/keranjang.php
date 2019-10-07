@@ -1,10 +1,29 @@
 <div class="container">
-	<div class="row">
-		<div class="col-xs-">
-		</div>
-	</div>
-</div>
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-xs-3 col-sm-2">
+      <a href="#"><span class="label label-danger">3</span>
+      <img src="<?php echo base_url().'image/dompet.png' ?>" class="img-responsive img-thumnail" alt="">
 
+      </a>
+    </div>
+    <div class="col-xs-3 col-sm-2">
+      <a href="#">
+      <img src="<?php echo base_url().'image/proses.png' ?>" class="img-responsive img-thumnail" alt="">
+      </a>
+    </div>
+    <div class="col-xs-3 col-sm-2">
+      <a href="#">
+      <img src="<?php echo base_url().'image/dikirim.png' ?>" class="img-responsive img-thumnail" alt="">
+      </a>
+    </div>
+    <div class="col-xs-3 col-sm-2">
+      <a href="#">
+      <img src="<?php echo base_url().'image/selesai.png' ?>" class="img-responsive img-thumnail" alt="">
+      </a>
+    </div>
+  </div>
+</div>
 <!-- akhir menu -->
 <div class="container">
 	<div class="row">
@@ -23,7 +42,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-xs-5 col-sm-2">
-			<a href="#">
+			<a href="<?php echo base_url().'status' ?>">
 				<img src="<?php echo base_url().'image/birthday.jpg' ?>" alt="" class="img-thumnail img-responsive">
 			</a>
 		</div>
@@ -136,4 +155,3 @@
     vertical-align: middle;
     float: none;
 }
-</style>
