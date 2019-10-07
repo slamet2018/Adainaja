@@ -43,7 +43,7 @@
               <h4 class="timeline-title">Selesai Dikerjakan</h4>
             </div>
             <div class="timeline-body">
-              <p>Anda diminta untuk mengkonfirmasi pekerjaan vendor dan memsatikan bahwa yang dilakukan vendor benar adanya dan untuk mempercayakan kami hehe <a href="#"><span class="badge">Checklist</span></a></p>
+              <p>Anda diminta untuk mengkonfirmasi pekerjaan vendor dan memsatikan bahwa yang dilakukan vendor benar adanya dan untuk mempercayakan kami hehe <a href="<?=('ceklis')?>"><span class="badge">Checklist</span></a></p>
             </div>
           </div>
         </li>

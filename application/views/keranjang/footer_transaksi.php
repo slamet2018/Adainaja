@@ -1,9 +1,4 @@
 
-    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-        <div class="container">
-            <p class="mt-3 text-center">Built By My team</p>
-        </div>
-    </nav>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -49,6 +44,7 @@ ul.timeline > li:before {
 }
 .mt-3{
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 .success{
     color:#4FEB18;

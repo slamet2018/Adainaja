@@ -79,5 +79,6 @@ $route['transaksi']='c_user/keranjang';
 $route['pembayaran']='c_user/pembayaran';
 $route['upload']='c_user/prosesupload';
 $route['status']='c_user/status_trans/';
+$route['ceklis']='c_user/ceklis/';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

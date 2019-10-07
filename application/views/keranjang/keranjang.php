@@ -1,24 +1,24 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-2"></div>
-    <div class="col-xs-3 col-sm-2">
+    <div class="col-xs-3 col-sm-2 text-right">
       <a href="#"><span class="label label-danger">3</span>
       <img src="<?php echo base_url().'image/dompet.png' ?>" class="img-responsive img-thumnail" alt="">
 
       </a>
     </div>
-    <div class="col-xs-3 col-sm-2">
-      <a href="#">
+    <div class="col-xs-3 col-sm-2 text-right">
+      <a href="#"><span class="label label-danger">2</span>
       <img src="<?php echo base_url().'image/proses.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
-    <div class="col-xs-3 col-sm-2">
-      <a href="#">
+    <div class="col-xs-3 col-sm-2 text-right">
+      <a href="#"><span class="label label-danger">1</span>
       <img src="<?php echo base_url().'image/dikirim.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
-    <div class="col-xs-3 col-sm-2">
-      <a href="#">
+    <div class="col-xs-3 col-sm-2 text-right">
+      <a href="<?=('ceklis') ?>"><span class="label label-danger">1</span>
       <img src="<?php echo base_url().'image/selesai.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
@@ -47,12 +47,16 @@
 			</a>
 		</div>
 		<div class="col-xs-7 col-sm-10">
+      <h3>Tratag Selalu Mencintaimu yang tersakiti selalu</h3>
 			<p>KETERANGAN PRODUK</p>
 			<p>Status : Sudah Dibayar ~ sedang di proses oleh vendor</p>
 		</div>
 	</div>
 </div>
 <hr>
+<br>
+<br>
+<br>
  <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   <div class="container">
     <div class="row">

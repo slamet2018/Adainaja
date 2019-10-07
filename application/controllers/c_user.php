@@ -155,6 +155,12 @@ class  C_user extends CI_Controller {
 		$this->load->view('keranjang/status_transaksi');
 		$this->load->view('keranjang/footer_transaksi');
 	}
+	public function ceklis()
+	{
+		$this->load->view('keranjang/header_transaksi');
+		$this->load->view('keranjang/checklist');
+		$this->load->view('keranjang/footer_transaksi');
+	}
 	
 
 	

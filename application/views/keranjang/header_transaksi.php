@@ -37,7 +37,7 @@
     <h1>AdainAja</h1>
     <p>Halaman Keranjang</p>
     <p>
-      <a class="btn btn-primary btn-lg">Checklist Penerimaan pengiriman</a>
+      <a href="<?=('ceklis')?>"class="btn btn-primary btn-lg">Checklist Penerimaan pengiriman</a>
     </p>
   </div>
 </div>
