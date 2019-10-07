@@ -34,10 +34,18 @@
   <body>
 <div class="jumbotron">
   <div class="container">
-    <h1>AdainAja</h1>
+    <a href="<?php echo base_url().''?>">
+    <h1>AdainAja</h1></a>
     <p>Halaman Keranjang</p>
     <p>
-      <a href="<?=('ceklis')?>"class="btn btn-primary btn-lg">Checklist Penerimaan pengiriman</a>
+      <ol class="breadcrumb">
+        <li>
+          <a href="<?=('transaksi')?>">Keranjang</a>
+        </li>
+        <li>
+          <a href="<?=('ceklis')?>">Centang Pesanan yang sudah selesai</a>
+        </li>
+      </ol>
     </p>
   </div>
 </div>

@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-sm-2"></div>
     <div class="col-xs-3 col-sm-2 text-right">
-      <a href="#"><span class="label label-danger">3</span>
+      <a href="<?=('upload');?>"><span class="label label-danger">3</span>
       <img src="<?php echo base_url().'image/dompet.png' ?>" class="img-responsive img-thumnail" alt="">
 
       </a>
@@ -27,7 +27,7 @@
 <!-- akhir menu -->
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12">
+    		<div class="col-xs-12">
 			<p class="navbar-text">
 				<div class="checkbox">
 					<label>
@@ -46,6 +46,7 @@
 				<img src="<?php echo base_url().'image/birthday.jpg' ?>" alt="" class="img-thumnail img-responsive">
 			</a>
 		</div>
+    <a href="<?php echo base_url().'status' ?>">
 		<div class="col-xs-7 col-sm-10">
       <h3>Tratag Selalu Mencintaimu yang tersakiti selalu</h3>
 			<p>KETERANGAN PRODUK</p>
@@ -53,6 +54,7 @@
 		</div>
 	</div>
 </div>
+</a>
 <hr>
 <br>
 <br>

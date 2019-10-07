@@ -26,6 +26,7 @@
 		
 	</div>
 </div>
+<hr>
 
 <div class="modal fade" id="modal-id">
 	<div class="modal-dialog">
@@ -47,18 +48,22 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<a href="<?= ('transaksi')?>" type="button" class="btn btn-default" >Close</a>
+				<a href="#" type="button" class="btn btn-default" data-dismiss="modal">Close</a>
 			</div>
 		</div>
 	</div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
 	<div class="container">
-		<div class="col-xs-6 mt-3">
-			<span class="label label-warning">3</span>
-		</div>
-		<div class="col-xs-4 mt-3">
+		<div class="row">
+		<div class="col-xs-4 col-xs-offset-4 mt-3">
 			<a class="btn btn-danger btn-block" data-toggle="modal" href='#modal-id'>Kirim</a>
+		</div>
 		</div>
 	</div>
 </nav>
