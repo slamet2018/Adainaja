@@ -75,14 +75,13 @@ $route['tampilpaket']='c_vendor/tampilpaket';
 $route['keranjang']='c_user/keranjang/';
 $route['editvendor']='c_vendor/edit';
 $route['dashbor']='c_admin/index';
-<<<<<<< HEAD
-=======
 $route['transaksi']='c_user/keranjang';
 $route['pembayaran']='c_user/pembayaran';
 $route['upload']='c_user/prosesupload';
 $route['status']='c_user/status_trans/';
 $route['ceklis']='c_user/ceklis/';
->>>>>>> 87d0c8e68c562bd4f793ac3ea026b1390d3d5b1f
+$route['status_transaksi']='c_user/status_trans/';
+$route['daftar_transaksi']='c_user/daftar_trans/';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
