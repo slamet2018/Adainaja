@@ -132,7 +132,7 @@ class  C_user extends CI_Controller {
 	public function keranjang()
 	{
 		$this->load->view('keranjang/header_transaksi');
-		$this->load->view('keranjang/keranjang');
+		$this->load->view('keranjang/duplikat');
 		$this->load->view('keranjang/footer_transaksi');
 	}
 
