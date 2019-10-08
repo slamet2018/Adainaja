@@ -5,9 +5,10 @@ class C_admin extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('dashboard');
-		
-		$this->load->view('bawah');
+		$this->load->view('admin/header');
+		$this->load->view('admin/sidebar');
+		$this->load->view('aksi_admin');
+		$this->load->view('admin/footer');
 	}
 
 }
