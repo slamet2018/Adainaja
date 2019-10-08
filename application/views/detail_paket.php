@@ -40,3 +40,25 @@
 				<div class="four wide column center aligned"><a href="" class="ui red circular button fluid"><i class="flag outline icon"></i>Laporan Pelanggaran</a></div>
 			</div>
 	</div>
+
+
+
+<!-- $route['status_transaksi']='c_user/status_trans/';
+$route['daftar_transaksi']='c_user/daftar_trans/'; -->
+
+
+<!-- public function daftar_trans()
+	{
+		$this->load->view('header');
+		$this->load->view('daftar_transaksi');
+		$this->load->view('footer');
+	} -->
+
+
+
+	<!-- public function status_trans()
+	{
+		$this->load->view('keranjang/header_transaksi');
+		$this->load->view('keranjang/status_transaksi');
+		$this->load->view('keranjang/footer_transaksi');
+	} -->
