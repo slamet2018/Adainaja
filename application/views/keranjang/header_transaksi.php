@@ -1,56 +1,53 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<!-- <link rel="stylesheet" type="text/css" href="bahan/semantic.css"> -->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'bahan/semantic.min.css'?> ">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'bahan/header.min.css'?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'bahan/style.css'?>">
-	<script type="text/javascript" src="<?php echo base_url().'bahan/jquery.min.js'?>"></script>
-	<script type="text/javascript" src="<?php echo base_url().'bahan/semantic.min.js'?>"></script>
-	<link href="<?php echo base_url().'bahan/sweetalert.css'?>" rel="stylesheet" />
-	<link rel="shortcut icon" type="image/jpg" href="20190608103822_IMG_9110.JPG"/>	
-	<script type="text/javascript">
-    $(document).ready(function(){
-      $('.ui.dropdown').dropdown()
-      ;
-    });
-  </script>
-  <script>
- $(document)
- .ready(function() {
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KERANJANG</title>
 
- // fix main menu to page on passing
- $('.main.menu').visibility({
- type: 'fixed'
- });
- $('.overlay').visibility({
- type: 'fixed',
- offset: 80
- });
- // lazy load images
- $('.image').visibility({
- type: 'image',
- transition: 'vertical flip in',
-duration: 500
-});
-// show dropdown on hover
-$('.main.menu .ui.dropdown').dropdown({
-on: 'hover'
-});
-})
-;
-</script>
-<script type="text/javascript">
-	$('.ui.basic.modal')
-  .modal('show')
-;
-$('.ui.modal')
-  .modal()
-;
-     $('.ui.basic.modal')
-      .modal('show');
-</script>
+    <!-- Bootstrap -->
+    <link href="<?php echo base_url().'boot/css/bootstrap.min.css' ?>" rel="stylesheet">
 
-</head>
-<body class="site">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+}
+    </script>
+  </head>
+  <body>
+<div class="jumbotron">
+  <div class="container">
+    <a href="<?php echo base_url().''?>">
+    <h1>AdainAja</h1></a>
+    <p>Halaman Keranjang</p>
+    <p>
+      <ol class="breadcrumb">
+        <li>
+          <a href="<?=('transaksi')?>">Keranjang</a>
+        </li>
+        <li>
+          <a href="<?=('ceklis')?>">Centang Pesanan yang sudah selesai</a>
+        </li>
+      </ol>
+    </p>
+  </div>
+</div>
+
+   

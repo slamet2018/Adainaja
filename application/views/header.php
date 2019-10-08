@@ -70,8 +70,8 @@ $('.ui.modal')
 		<div class="ui dividing raised header"></div>
 		<div class="ui sixteen wide column right floated">
 		<div class="two wide column">
- 		<a href="<?php echo base_url().'login' ?>" class="a item"><i class="user icon"></i>Login</a> | 
-		<a href="<?php echo base_url().'signup' ?>" class="a item"><i class="user add icon"></i>Sign up</a>
+ 		<a href="<?php echo base_url().'login' ?>" class="a item"><i class="user big icon"></i>Login</a>  ||  
+		<a href="<?php echo base_url().'signup' ?>" class="a item"><i class="user add big icon"></i>Daftar</a> ||  <a href="<?php echo base_url().'transaksi' ?>" class="a item"><i class="dolly big icon"></i>Keranjang</a>
  		</div>
 		</div>
 		
