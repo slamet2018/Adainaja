@@ -32,22 +32,3 @@
     </script>
   </head>
   <body>
-<div class="jumbotron">
-  <div class="container">
-    <a href="<?php echo base_url().''?>">
-    <h1>AdainAja</h1></a>
-    <p>Halaman Keranjang</p>
-    <p>
-      <ol class="breadcrumb">
-        <li>
-          <a href="<?=('transaksi')?>">Keranjang</a>
-        </li>
-        <li>
-          <a href="<?=('ceklis')?>">Centang Pesanan yang sudah selesai</a>
-        </li>
-      </ol>
-    </p>
-  </div>
-</div>
-
-   

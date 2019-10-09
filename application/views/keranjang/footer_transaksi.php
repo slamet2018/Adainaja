@@ -9,6 +9,9 @@
   .hehe{
     margin-top: 20px;
 }
+.heder{
+    background-color: #9876;
+}
 body{
     scroll-behavior: smooth;
 }

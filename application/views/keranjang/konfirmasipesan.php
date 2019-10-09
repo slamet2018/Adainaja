@@ -10,7 +10,7 @@
 				<caption></caption>
 				<tdead>
 					<tr>
-						<td>NO. REKENING</td>
+						<td>NO. REKENING BRI</td>
 						<td>:</td>
 						<td>
  <input type="text" value="132.xxxx" id="myInput" readonly="" class="form-control"></td>

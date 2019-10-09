@@ -16,11 +16,6 @@
       ;
     });
   </script>
-  <script type="text/javascript">
-	$('.special.cards .image').dimmer({
-  on: 'hover'
-});
-</script>
   <script>
  $(document)
  .ready(function() {
@@ -57,11 +52,13 @@ $('.ui.modal')
       .modal('show');
 </script>
 
+
 </head>
 <body class="site">
 	<!-- <div class="bg"></div> -->
-	
 <div class="ui stackable grid center aligned bg">
+	<div class="ui hidden divider"></div><br>
+	<div class="ui hidden divider"></div><br>
 	<div class="ui hidden divider"></div><br>
 	<div class="five wide column">
 		<div class="ui fourteen wide column center aligned">
@@ -79,19 +76,9 @@ $('.ui.modal')
 		<a href="<?php echo base_url().'signup' ?>" class="a item"><i class="user add big icon"></i>Daftar</a> ||  <a href="<?php echo base_url().'transaksi' ?>" class="a item"><i class="dolly big icon"></i>Keranjang</a>
  		</div>
 		</div>
-		
+		<br>
 	</div>
 </div>
-
-
- <div class="ui borderless main ui teal four item computer three item mobile inverted menu" style="box-shadow:5px 2px 5px 2px silver;
-  }">
- <div class="ui text container">
- <a href="<?php echo base_url().'' ?>" class="item">HOME</a>
- <a href="<?php echo base_url().'wedding' ?>" class="item">WEDDING</a>
- <a href="<?php echo base_url().'birthday' ?>" class="item">BIRTHDAY</a>
- <a href="<?php echo base_url().'building' ?>" class="item">BUILDING</a>
- 
- 
- </div>
- </div>
+<br>
+<br>
+<br>
