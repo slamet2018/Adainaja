@@ -1,6 +1,5 @@
 	<div class="ui segment sixteen wide column centered">
 		<div class="ui fiveteen wide column">
-<<<<<<< HEAD
 		<div class="ui icon input">
 			<input type="text" name="" value="" placeholder="search by Event...">
 			<i class="ui search icon"></i>
@@ -76,7 +75,6 @@
 
 	</div>
 	</div>
-=======
       <div class="ui icon input">
        <input type="text" name="" value="" placeholder="search..">
        <i class="ui search icon"></i>
@@ -129,6 +127,5 @@
   </div>
 </div>
 </div>
->>>>>>> 6bb081de0c17856e8fdbae890f9e041425f9cbfa
 </body>
 </html>

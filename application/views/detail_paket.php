@@ -24,18 +24,15 @@
 		</div><br>
 		<h4>Jika sudah Order, tunggu notifikasi untuk pembayaran dan informasi lebih lanjut</h4>
 		<div class="ui hidden divider"></div>
-<<<<<<< HEAD
 			<div class="ui stackable container grid center aligned">
 				<div class="fourteen wide column"></div>
 				<div class="four wide column center aligned"><a href="#" class="ui whatsapp circular button fluid"><i class="whatsapp icon"></i>Chat WhatsApp</a></div>
 				<div class="four wide column center aligned"><a href="" class="ui red circular button fluid"><i class="flag outline icon"></i>Laporan Pelanggaran</a></div>
 			</div>
 	</div>
-=======
 		<div class="ui stackable container grid center aligned">
 			<div class="fourteen wide column"></div>
 			<div class="four wide column center aligned"><a href="#" class="ui whatsapp circular button fluid"><i class="whatsapp icon"></i>Chat WhatsApp</a></div>
 			<div class="four wide column center aligned"><a href="" class="ui red circular button fluid"><i class="flag outline icon"></i>Laporan Pelanggaran</a></div>
 		</div>
 	</div>
->>>>>>> 6bb081de0c17856e8fdbae890f9e041425f9cbfa

@@ -63,7 +63,7 @@ $('.ui.modal')
 	
 <div class="ui stackable grid center aligned bg">
 	<div class="ui hidden divider"></div><br>
-	<div class="five wide column">
+	<div class="seven wide column">
 		<div class="ui fourteen wide column center aligned">
 			<h1 class="ui header">
  				<div class="ui massive circular image">
