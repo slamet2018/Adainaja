@@ -26,7 +26,7 @@
 </div>
 <!-- akhir menu -->
 <div class="container">
-  <div class="row">
+	<div class="row">
     <div class="col-xs-12">
      <p class="navbar-text">
      </p>
@@ -36,8 +36,6 @@
 </div>
 <!-- table -->
 <div class="container">
-  <a class="btn btn-primary" href="<?php echo base_url(); ?>" data-toggle="tooltip" data-placement="top" title="Tambah Pesanan"><span class="glyphicon glyphicon-plus"></span></a>    
-  </a>
   <div class="row">
     <div class="col-xs-3">
       PRODUCK
@@ -54,55 +52,28 @@
   </div>
   <hr>
   <div class="row">
-    <div class="col-xs-3">
-     <div class="checkbox">
-      <label>
-        <input type="checkbox" value="">
-        Pilih
-      </label>
-    </div>
-    <a href="<?=('status')?>">
-      <img src="<?=('image/')?>weding.jpg" class="img-responsive" alt="Image">
-    </a>
-  </div>
-  <div class="col-xs-5">
-    <b>TRATAG YANG SELALU TERSAKITIEEE</b>
-  </div>
-  <div class="col-xs-2">
-    Rp.xxx
-  </div>
-  <div class="col-xs-2">
-    <!-- modal -->
-
-    <a class="btn btn-danger" data-toggle="modal" href='#modal-id'><span class="glyphicon glyphicon-trash"></span></a>
-    <div class="modal fade" id="modal-id">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">peringatan</h4>
-          </div>
-          <div class="modal-body">
-            Yakin akan menghapus
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
-            <button type="button" class="btn btn-primary">Yakin</button>
-          </div>
-        </div>
+      <div class="col-xs-3">
+       <div class="checkbox">
+        <label>
+          <input type="checkbox" value="">
+          Pilih
+        </label>
       </div>
+      <a href="<?=('status')?>">
+      <img src="<?=('image/')?>weding.jpg" class="img-responsive" alt="Image">
+      </a>
     </div>
-
-    <!-- modal -->
+    <div class="col-xs-5">
+      <b>TRATAG YANG SELALU TERSAKITIEEE</b>
+    </div>
+    <div class="col-xs-2">
+      Rp.xxx
+    </div>
+    <div class="col-xs-2">
+      <a href="#" class="btn btn-danger">Hapus</a>
+    </div>
   </div>
-  <div class="col-xs-10 text-right">
-    Total Rp. Xxxx
-  </div>
-  <div class="col-xs-2">
-    <a href="<?=('pembayaran')?>" class="btn btn-info">CHECKOUT</a>
-  </div>
-</div>
-<hr>
+  <hr>
 </div>
 <!-- table -->
 
@@ -137,7 +108,7 @@
 </body>
 </html>
 <style type="text/css" media="screen">
-  html,body{
+	html,body{
    height: 100%;
    width: 100%;
  }
@@ -175,10 +146,10 @@
   color: white;
 }
 .bg{
-  background-image: url('<?php echo base_url();?>/bahan/bi.jpg');
+	background-image: url('<?php echo base_url();?>/bahan/bi.jpg');
 }
 .white{
-  color: white;
+	color: white;
 }
 .page{
   width: 1100px;

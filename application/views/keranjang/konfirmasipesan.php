@@ -10,7 +10,7 @@
 				<caption></caption>
 				<tdead>
 					<tr>
-						<td>NO. REKENING</td>
+						<td>NO. REKENING BRI</td>
 						<td>:</td>
 						<td>
  <input type="text" value="132.xxxx" id="myInput" readonly="" class="form-control"></td>
@@ -33,21 +33,29 @@
 <br>
 <br>
 <br>
-<!-- Button trigger modal -->
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-			<button class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal">
-  				UPLOAD BUKTI PEMBAYARAN
-			</button>
-		</div>
-		<br>
-		<br>
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-      		<a href="<?php echo base_url().'transaksi'; ?>" class="btn btn-block btn-default">UPLOAD NANTI</a>
-      	</div>
-	</div>
+
+<!-- fixed nav -->
+
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <button class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal">
+          UPLOAD BUKTI PEMBAYARAN
+      </button>
+    </div>
+    <br>
+    <br>
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+          <a href="<?php echo base_url().'transaksi'; ?>" class="btn btn-block btn-default">UPLOAD NANTI</a>
+        </div>
+  </div>
 </div>
+</nav>
+
+<!-- akhir fixed nav -->
+<!-- Button trigger modal -->
+
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
