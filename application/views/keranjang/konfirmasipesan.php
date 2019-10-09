@@ -2,8 +2,23 @@
 	<div class="row">
 		<div class="col-xs-12">
 			<h4>Konfirmasi Pembelian Paket</h4>
+      <h4>Pilih Bank</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 col-sm-2">
+            <div class="form-group">
+              <select class="form-control">
+                <option>BRI</option>
+                <option>BCA</option>
+                <option>BNI</option>
+                <option>MANDIRI</option>
+                <option>MEGA</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
 			<h5>Total yang harus dibayar</h5>
-			
 			<h2>Rp. 0</h2><p class="bg-danger rounded">NB : Jumlah transfer harus sama dengan nominal yang diatas, tidak boleh lebih ataupun kurang, jika sudah ditranfer upload bukti pembayaran sebelum 24 jam</p>
 
 			<table>

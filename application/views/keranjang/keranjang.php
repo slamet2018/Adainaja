@@ -89,18 +89,13 @@
 
   <!-- modal -->
 </div>
-<div class="col-xs-10 text-right">
-  Total Rp. Xxxx
 </div>
-<div class="col-xs-2">
-  <a href="<?=('pembayaran')?>" class="btn btn-info">CHECKOUT</a>
-</div>
-</div>
-<hr>
-</div>
+
 <!-- table -->
 
 <hr>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -118,7 +113,7 @@
       </div>
       <div class="col-xs-4 text-center">
 
-        <a href="<?php echo base_url().'pembayaran' ?>" class="btn btn-danger">CHECKOUT</a>
+        <a href="<?php echo base_url().'cekot' ?>" class="btn btn-danger">CHECKOUT</a>
       </div>
     </div>
     

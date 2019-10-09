@@ -57,22 +57,7 @@
 				</div>
 			</div>
 			<hr>
-			<h4>Pilih Bank</h4>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-4 col-sm-2">
-						<div class="form-group">
-							<select class="form-control">
-								<option>BRI</option>
-								<option>BCA</option>
-								<option>BNI</option>
-								<option>MANDIRI</option>
-								<option>MEGA</option>
-							</select>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 			<hr>
 			<h4>Pembayaran</h4>
 			<table>
