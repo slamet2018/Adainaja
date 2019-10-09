@@ -1,7 +1,7 @@
 	<div class="ui segment sixteen wide column centered">
 		<div class="ui fiveteen wide column">
 		<div class="ui icon input">
-			<input type="text" name="" value="" placeholder="search..">
+			<input type="text" name="" value="" placeholder="search by EO...">
 			<i class="ui search icon"></i>
 		</div>
 		</div>
