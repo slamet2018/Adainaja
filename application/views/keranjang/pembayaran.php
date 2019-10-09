@@ -7,13 +7,13 @@
 				<thead>
 					<tr>
 						<th>Nama</th>
-						<td>: xxxxx</td>
+						<td>: nama pemesan</td>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<th>Alamat</th>
-						<td>: xxxxx</td>
+						<td>: alamat pemesan</td>
 					</tr>
 				</tbody>
 			</table>
@@ -40,6 +40,19 @@
 							<label>Lokasi acara</label>
 							<textarea rows="4" class="form-control" required=""></textarea>
 						</div>
+					</div>
+					<div class="col-sm-2"></div>
+					<div class="col-sm-6">
+						<h2>Daftar paket yang akan dibeli</h2>
+						<ul type="square">
+							<li>Tratag</li>
+							<li>Konsumsi</li>
+							<li>MUA</li>
+							<li>Sound System</li>
+							<li>Dekorasi</li>
+						</ul> 
+						<h2>Harga Paket</h2>
+						<h3>Rp. 15.000.000</h3>
 					</div>
 				</div>
 			</div>
@@ -102,21 +115,15 @@
 <nav class="navbar navbar-default navbar-fixed-bottom hehe" role="navigation">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-6">
-				<div class="checkbox text-success text-right">
-					<label><input type="checkbox" name="">
-					PILIH SEMUA</label>
-				</div>
-			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 text-center">
 				Subtotal <p class="text-danger ">Rp. xxx</p>
 			</div>
 			<div class="col-xs-10 col-xs-offset-1 text-center">
 				<a href="<?php echo base_url().'upload' ?>" class="btn btn-danger btn-block">BAYAR</a>
 			</div>
-			<div class="col-xs-12">.</div>
+			<div class="col-xs-12"></div>
 			<div class="col-xs-10 col-xs-offset-1 text-center">
-				<a class="btn btn-default btn-block" data-toggle="modal" href='#modal-id'>Tambah ke keranjang</a>
+				<a class="btn btn-primary btn-block" data-toggle="modal" href='#modal-id'>Tambah ke keranjang</a>
 			</div>
 		</div>
 

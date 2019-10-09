@@ -18,7 +18,7 @@
       <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">Sedang Dikerjakan</h4>
+          <h4 class="timeline-title">Sedang Dipersiapkan</h4>
         </div>
         <div class="timeline-body">
           <p>Pesanan anda sedang dipersiapkan untuk kemudian akan dikirim dan di kerjakan ditempat sesuai yang anda esan jika ingin melihat detail, silahkan klik disini!</p>
@@ -29,7 +29,7 @@
       <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">Sedang Dalam Perjalanan</h4>
+          <h4 class="timeline-title">Sedang Dalam Proses</h4>
         </div>
         <div class="timeline-body">
           <p>Vendor dalam proses pengiriman pesanan dan silahkan tunggu beberapa detik lagi duarrr1</p>

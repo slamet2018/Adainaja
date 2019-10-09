@@ -1,23 +1,17 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-xs-3 col-sm-2 text-right">
-      <a href="<?=('upload');?>"><span class="label label-danger">3</span>
-        <img src="<?php echo base_url().'image/dompet.png' ?>" class="img-responsive img-thumnail" alt="">
-
+    <div class="col-sm-3"></div>
+    <div class="col-xs-4 col-sm-2 text-right">
+      <a href="#"><span class="label label-danger">2</span>
+        <img src="<?php echo base_url().'image/persiapan.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
-    <div class="col-xs-3 col-sm-2 text-right">
-      <a href="#"><span class="label label-danger">2</span>
+    <div class="col-xs-4 col-sm-2 text-right">
+      <a href="#"><span class="label label-danger">1</span>
         <img src="<?php echo base_url().'image/proses.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
-    <div class="col-xs-3 col-sm-2 text-right">
-      <a href="#"><span class="label label-danger">1</span>
-        <img src="<?php echo base_url().'image/dikirim.png' ?>" class="img-responsive img-thumnail" alt="">
-      </a>
-    </div>
-    <div class="col-xs-3 col-sm-2 text-right">
+    <div class="col-xs-4 col-sm-2 text-right">
       <a href="<?=('ceklis') ?>"><span class="label label-danger">1</span>
         <img src="<?php echo base_url().'image/selesai.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
@@ -113,13 +107,13 @@
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4">
+      <div class="col-xs-4 text-right">
         <div class="checkbox text-success">
           <label><input type="checkbox" name="">
           PILIH SEMUA</label>
         </div>
       </div>
-      <div class="col-xs-4 text-right">
+      <div class="col-xs-2 text-right">
         Subtotal <p class="text-danger ">Rp. xxx</p>
       </div>
       <div class="col-xs-4 text-center">

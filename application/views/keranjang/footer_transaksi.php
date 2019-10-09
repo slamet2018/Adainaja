@@ -9,6 +9,12 @@
   .hehe{
     margin-top: 20px;
 }
+ul,a{
+    color: black;
+}
+ul,a:hover{
+    color: black;
+}
 .heder{
     background-color: #9876;
 }
