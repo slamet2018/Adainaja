@@ -68,10 +68,12 @@ $('.ui.modal')
 			</h1>
 		</div>
 		<div class="ui dividing raised header"></div>
-		<div class="ui sixteen wide column right floated">
-		<div class="two wide column">
+		<div class="ui sixteen wide column right floated grid">
+		<div class="sixteen wide column">
  		<a href="<?php echo base_url().'login' ?>" class="a item"><i class="user big icon"></i>Login</a>  ||  
-		<a href="<?php echo base_url().'signup' ?>" class="a item"><i class="user add big icon"></i>Daftar</a> ||  <a href="<?php echo base_url().'transaksi' ?>" class="a item"><i class="dolly big icon"></i>Keranjang</a>
+		<a href="<?php echo base_url().'signup' ?>" class="a item"><i class="user add big icon"></i>Daftar</a> ||  
+		<a href="<?php echo base_url().'transaksi' ?>" class="a item"><i class="dolly big icon"></i>Keranjang</a> ||  
+		<a href="<?php echo base_url().'daftar_transaksi' ?>" class="a item"><i class="list big icon"></i>Daftar Transaksi</a>
  		</div>
 		</div>
 		
