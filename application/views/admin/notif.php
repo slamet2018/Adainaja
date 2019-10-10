@@ -1,4 +1,5 @@
-	<div class="ui fourteen wide column segment">
+	<div class="ui grid">
+	<div class="ui thirteen wide column right floated">
 		<div align="center"><h2><i class="bell icon"></i>LIST NOTIFICATION</h2>
 			<table align="right" class="ui inverted blue table">
 			<thead>
@@ -30,4 +31,4 @@
 			</table>
 		</div>
 	</div>
-</div>
+	</div>

@@ -31,6 +31,13 @@ class C_admin extends CI_Controller {
 		$this->load->view('admin/list_user');
 		$this->load->view('admin/footer');
 	}
+	public function vendor()
+	{
+		$this->load->view('admin/header');
+		$this->load->view('admin/sidebar');
+		$this->load->view('admin/listvendor');
+		$this->load->view('admin/footer');
+	}
 
 }
 

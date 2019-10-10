@@ -84,6 +84,7 @@ $route['status_transaksi']='c_user/status_trans/';
 $route['daftar_transaksi']='c_user/daftar_trans/';
 $route['notifadmin']='c_admin/notification';
 $route['listeo']='c_admin/eo';
+$route['listvendor']='c_admin/vendor';
 $route['listuser']='c_admin/user';
 $route['cekot']='c_user/checkout_semua/';
 $route['404_override'] = '';
