@@ -1,5 +1,6 @@
-	<div class="ui fourteen wide column stackable container segment">
-		<table class="ui inverted violet table">
+	<div class="ui fourteen wide column segment">
+		<div align="center"><h2><i class="bell icon"></i>LIST NOTIFICATION</h2>
+			<table align="right" class="ui inverted blue table">
 			<thead>
 				<tr>
 					<th>No</th>
@@ -18,14 +19,15 @@
 					<td>1</td>
 					<td>001</td>
 					<td>Angkasa Putra</td>
-					<td>Bejo bin Slamet</td>
-					<td>1</td>
-					<td>1</td>
-					<td>1</td>
-					<td>1</td>
-					<td>crud</td>
+					<td>Bejo77</td>
+					<td>Vendor Apasaja yg dipesan</td>
+					<td>Accepted</td>
+					<td>02/09/2019</td>
+					<td>13/09/2019</td>
+					<td>Edit</td>
 				</tr>
 			</tbody>
-		</table>
+			</table>
+		</div>
 	</div>
 </div>
