@@ -1,6 +1,7 @@
  <div class="pusher">
         <div class="ui fluid container">
-            <div class="ui two column grid">
+            <div class="ui grid">
+            <div class="two wide column">
                 <div class="side menu" id="sideMenu">
                     <div align="center" class="profile">
                         <br>
