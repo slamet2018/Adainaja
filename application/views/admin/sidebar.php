@@ -14,7 +14,7 @@
                         <a href="" class="item"><i class="table icon"></i> <span>E.O</span></a>
                         <a href="" class="item"><i class="bar chart icon"></i> <span>Admin</span></a>
                         <a href="" class="item"><i class="wrench icon"></i> <span>Control</span></a>
-                        <a href="" class="item"><i class="bell icon"></i> <span>Notification</span></a>
+                        <a href="<?php echo base_url().'notifadmin' ?>" class="item"><i class="bell icon"></i> <span>Notification</span></a>
                     </div>
                 </div>
             </div>
