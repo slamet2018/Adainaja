@@ -9,6 +9,12 @@
   .hehe{
     margin-top: 20px;
 }
+ul,a{
+    color: black;
+}
+ul,a:hover{
+    color: black;
+}
 .heder{
     background-color: #9876;
 }
@@ -51,6 +57,13 @@ ul.timeline > li:before {
 }
 .success{
     color:#4FEB18;
+}
+.margin{
+    min-height: 50px;
+}
+.mt1{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 </style>

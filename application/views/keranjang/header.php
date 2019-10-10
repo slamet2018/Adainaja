@@ -82,6 +82,8 @@ $('.ui.modal')
 		<br>
 	</div>
 </div>
+ </div>
+ </div>
 <br>
 <br>
 <br>

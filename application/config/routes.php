@@ -82,6 +82,7 @@ $route['status']='c_user/status_trans/';
 $route['ceklis']='c_user/ceklis/';
 $route['status_transaksi']='c_user/status_trans/';
 $route['daftar_transaksi']='c_user/daftar_trans/';
+$route['cekot']='c_user/checkout_semua/';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 

@@ -1,23 +1,17 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-xs-3 col-sm-2 text-right">
-      <a href="<?=('upload');?>"><span class="label label-danger">3</span>
-        <img src="<?php echo base_url().'image/dompet.png' ?>" class="img-responsive img-thumnail" alt="">
-
+    <div class="col-sm-3"></div>
+    <div class="col-xs-4 col-sm-2 text-right">
+      <a href="#"><span class="label label-danger">2</span>
+        <img src="<?php echo base_url().'image/persiapan.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
-    <div class="col-xs-3 col-sm-2 text-right">
-      <a href="#"><span class="label label-danger">2</span>
+    <div class="col-xs-4 col-sm-2 text-right">
+      <a href="#"><span class="label label-danger">1</span>
         <img src="<?php echo base_url().'image/proses.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
-    <div class="col-xs-3 col-sm-2 text-right">
-      <a href="#"><span class="label label-danger">1</span>
-        <img src="<?php echo base_url().'image/dikirim.png' ?>" class="img-responsive img-thumnail" alt="">
-      </a>
-    </div>
-    <div class="col-xs-3 col-sm-2 text-right">
+    <div class="col-xs-4 col-sm-2 text-right">
       <a href="<?=('ceklis') ?>"><span class="label label-danger">1</span>
         <img src="<?php echo base_url().'image/selesai.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
@@ -37,94 +31,89 @@
 <!-- table -->
 <div class="container">
   <a class="btn btn-primary" href="<?php echo base_url(); ?>" data-toggle="tooltip" data-placement="top" title="Tambah Pesanan"><span class="glyphicon glyphicon-plus"></span></a>    
-  </a>
-  <div class="row">
-    <div class="col-xs-3">
-      PRODUCK
-    </div>
-    <div class="col-xs-5">
-      DETAIL
-    </div>
-    <div class="col-xs-2">
-      HARGA
-    </div>
-    <div class="col-xs-2">
-      AKSI
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-xs-3">
-     <div class="checkbox">
-      <label>
-        <input type="checkbox" value="">
-        Pilih
-      </label>
-    </div>
-    <a href="<?=('status')?>">
-      <img src="<?=('image/')?>weding.jpg" class="img-responsive" alt="Image">
-    </a>
+</a>
+<div class="row">
+  <div class="col-xs-3">
+    PRODUCK
   </div>
   <div class="col-xs-5">
-    <b>TRATAG YANG SELALU TERSAKITIEEE</b>
+    DETAIL
   </div>
   <div class="col-xs-2">
-    Rp.xxx
+    HARGA
   </div>
   <div class="col-xs-2">
-    <!-- modal -->
-
-    <a class="btn btn-danger" data-toggle="modal" href='#modal-id'><span class="glyphicon glyphicon-trash"></span></a>
-    <div class="modal fade" id="modal-id">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">peringatan</h4>
-          </div>
-          <div class="modal-body">
-            Yakin akan menghapus
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
-            <button type="button" class="btn btn-primary">Yakin</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- modal -->
-  </div>
-  <div class="col-xs-10 text-right">
-    Total Rp. Xxxx
-  </div>
-  <div class="col-xs-2">
-    <a href="<?=('pembayaran')?>" class="btn btn-info">CHECKOUT</a>
+    AKSI
   </div>
 </div>
 <hr>
+<div class="row">
+  <div class="col-xs-3">
+   <div class="checkbox">
+    <label>
+      <input type="checkbox" value="">
+      Pilih
+    </label>
+  </div>
+  <a href="<?=('status')?>">
+    <img src="<?=('image/')?>weding.jpg" class="img-responsive" alt="Image">
+  </a>
 </div>
+<div class="col-xs-5">
+  <b>TRATAG YANG SELALU TERSAKITIEEE</b>
+</div>
+<div class="col-xs-2">
+  Rp.xxx
+</div>
+<div class="col-xs-2">
+  <!-- modal -->
+
+  <a class="btn btn-danger" data-toggle="modal" href='#modal-id'><span class="glyphicon glyphicon-trash"></span></a>
+  <div class="modal fade" id="modal-id">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">peringatan</h4>
+        </div>
+        <div class="modal-body">
+          Yakin akan menghapus
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
+          <button type="button" class="btn btn-primary">Yakin</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal -->
+</div>
+</div>
+
 <!-- table -->
 
 <hr>
 <br>
 <br>
 <br>
+<br>
+<br>
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4">
+      <div class="col-xs-4 text-right">
         <div class="checkbox text-success">
           <label><input type="checkbox" name="">
           PILIH SEMUA</label>
         </div>
       </div>
-      <div class="col-xs-4 text-right">
+      <div class="col-xs-2 text-right">
         Subtotal <p class="text-danger ">Rp. xxx</p>
       </div>
       <div class="col-xs-4 text-center">
 
-        <a href="<?php echo base_url().'pembayaran' ?>" class="btn btn-danger">CHECKOUT</a>
+        <a href="<?php echo base_url().'cekot' ?>" class="btn btn-danger">CHECKOUT</a>
       </div>
     </div>
     

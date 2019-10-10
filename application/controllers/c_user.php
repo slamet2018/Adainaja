@@ -171,6 +171,15 @@ class  C_user extends CI_Controller {
 		$this->load->view('keranjang/status_transaksi');
 		$this->load->view('keranjang/footer_transaksi');
 	}
+
+	public function checkout_semua()
+	{
+		$this->load->view('keranjang/header');
+		$this->load->view('keranjang/header_transaksi');
+		$this->load->view('keranjang/pembayaran_semua');
+		$this->load->view('keranjang/footer_transaksi');
+	}
+	
 	
 	
 

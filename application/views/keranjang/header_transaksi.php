@@ -32,3 +32,11 @@
     </script>
   </head>
   <body>
+    <ol class="breadcrumb">
+      <li>
+        <a href="<?=('transaksi')?>">Keranjang</a>
+      </li>
+      <li>
+        <a href="<?=('upload')?>">Belum bayar</a>
+      </li>
+    </ol>
