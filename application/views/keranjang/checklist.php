@@ -9,19 +9,19 @@
 			</div>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-				<a href="#" class="thumbnail">
-					<img src="<?php echo base_url().'image/weding.jpg' ?>" alt="">
-				</a>
+			<a href="#" class="thumbnail">
+				<img src="<?php echo base_url().'image/weding.jpg' ?>" alt="">
+			</a>
 		</div>
 		<div class="col-xs-8 col-sm-10">
-				<h3>Tratag yang selalu tersakiti</h3>
-					<div class="checkbox">
-						<label>
-							<input type="checkbox" value="">
-							Pilih satu
-						</label>
-					</div>
-				
+			<h3>EO ini</h3>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" value="">
+					Pilih satu
+				</label>
+			</div>
+			
 		</div>
 		
 	</div>
@@ -48,7 +48,7 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<a href="#" type="button" class="btn btn-default" data-dismiss="modal">Close</a>
+				<a href="<?=('transaksi')?>" type="button" class="btn btn-default">Close</a>
 			</div>
 		</div>
 	</div>
@@ -61,9 +61,9 @@
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
 	<div class="container">
 		<div class="row">
-		<div class="col-xs-4 col-xs-offset-4 mt-3">
-			<a class="btn btn-danger btn-block" data-toggle="modal" href='#modal-id'>Kirim</a>
-		</div>
+			<div class="col-xs-4 col-xs-offset-4 mt-3">
+				<a class="btn btn-danger btn-block" data-toggle="modal" href='#modal-id'>Kirim</a>
+			</div>
 		</div>
 	</div>
 </nav>

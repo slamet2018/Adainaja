@@ -2,12 +2,12 @@
   <div class="row">
     <div class="col-sm-3"></div>
     <div class="col-xs-4 col-sm-2 text-right">
-      <a href="#"><span class="label label-danger">2</span>
+      <a href="<?php echo base_url().'siap' ?>"><span class="label label-danger">2</span>
         <img src="<?php echo base_url().'image/persiapan.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
     <div class="col-xs-4 col-sm-2 text-right">
-      <a href="#"><span class="label label-danger">1</span>
+      <a href="<?php echo base_url().'proses' ?>"><span class="label label-danger">1</span>
         <img src="<?php echo base_url().'image/proses.png' ?>" class="img-responsive img-thumnail" alt="">
       </a>
     </div>
@@ -55,12 +55,10 @@
       Pilih
     </label>
   </div>
-  <a href="<?=('status')?>">
     <img src="<?=('image/')?>weding.jpg" class="img-responsive" alt="Image">
-  </a>
 </div>
 <div class="col-xs-5">
-  <b>TRATAG YANG SELALU TERSAKITIEEE</b>
+  <h2> Nama EO <small>Belum Dibayar</small></h2>
 </div>
 <div class="col-xs-2">
   Rp.xxx

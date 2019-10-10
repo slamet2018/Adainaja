@@ -30,13 +30,15 @@
   /* Alert the copied text */
 }
     </script>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
   </head>
   <body>
     <ol class="breadcrumb">
       <li>
         <a href="<?=('transaksi')?>">Keranjang</a>
-      </li>
-      <li>
-        <a href="<?=('upload')?>">Belum bayar</a>
       </li>
     </ol>

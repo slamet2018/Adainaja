@@ -6,22 +6,29 @@
 				<img src="<?php echo base_url().'image/weding.jpg' ?>" alt="" class="ui fluid image">
 			</div>
 			<div class="six wide column">
-				<h2>Daftar paket yang akan dibeli</h2>
-				<ul type="square">
+				<ul>
+					<li><h2>Daftar paket yang akan dibeli</h2></li>
+					<ul type="square">
 					<li>Tratag</li>
 					<li>Konsumsi</li>
 					<li>MUA</li>
 					<li>Sound System</li>
 					<li>Dekorasi</li>
-				</ul> 
-				<h2>Harga Paket</h2>
-				<h3>Rp. 15.000.000</h3>
+					</ul> 
+					<li><h2 style="color: red;">Harga Paket <br>Rp. 15.000.000</h2></li>
+					
+					<li><h2>Lokasi EO</h2>
+			<p>Gawis Kulon, Gondowulan, Kepil, Wonosobo</p></li>
+				</ul>
+				
+				
+				
+				
 			</div>
 		</div>
 		<br>
 		<div class="sixteen wide column">
-			<h2>Lokasi EO</h2>
-			<p>Gawis Kulon, Gondowulan, Kepil, Wonosobo</p>
+			
 		</div>
 
 		<div class="ui hidden divider"></div>

@@ -180,6 +180,21 @@ class  C_user extends CI_Controller {
 		$this->load->view('keranjang/footer_transaksi');
 	}
 	
+	public function Persiapan()
+	{
+		$this->load->view('keranjang/header');
+		$this->load->view('keranjang/header_transaksi');
+		$this->load->view('keranjang/persiapan');
+		$this->load->view('keranjang/footer_transaksi');
+	}
+	public function proses()
+	{
+		$this->load->view('keranjang/header');
+		$this->load->view('keranjang/header_transaksi');
+		$this->load->view('keranjang/proses');
+		$this->load->view('keranjang/footer_transaksi');
+	}
+	
 	
 	
 
