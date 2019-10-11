@@ -61,6 +61,7 @@ $('.main.menu .ui.dropdown').dropdown({
 <body class="site">
 	<!-- <div class="bg"></div> -->
 	
+<<<<<<< HEAD
 	<div class="ui stackable grid center aligned bg">
 		<div class="ui hidden divider"></div><br>
 		<div class="seven wide column">
@@ -69,6 +70,16 @@ $('.main.menu .ui.dropdown').dropdown({
 					<div class="ui massive circular image">
 						<img class="ui logo" src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
 					</div>
+=======
+<div class="ui stackable grid center aligned bg">
+	<div class="ui hidden divider"></div><br>
+	<div class="seven wide column">
+		<div class="ui fourteen wide column center aligned">
+			<h1 class="ui header">
+ 				<div class="ui massive circular image">
+					<img class="ui logo" src="<?php echo base_url().'bahan/logoeo.jpg' ?>">
+				</div>
+>>>>>>> b441848057ad2f37de8af38ca47512c1b6034521
 					<a href="<?php echo base_url(); ?>" class="a">ADAINAJA</a>
 				</h1>
 			</div>

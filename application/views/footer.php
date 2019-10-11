@@ -20,6 +20,9 @@
 	width: 100%;
   scroll-behavior: smooth;
 }
+ul li{
+  font-size: 14px;
+}
 .site{
     display: flex;
     min-height: 10vh;

@@ -113,8 +113,10 @@ class  C_user extends CI_Controller {
 			redirect('notifikasi','refresh');
 		}elseif ($user=="vendor") {
 			redirect('notifvendor','refresh');
+		}elseif($user=="admin"){
+			redirect('dashbor','refresh');
 		}else{
-			echo "gagal";
+			echo"gagal";
 		}
 	}
 	public function building()

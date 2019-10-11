@@ -96,7 +96,7 @@
     </div>
     <div class="pusher">
         <div class="ui fluid container">
-            <div class="ui two column grid">
+            <div class="ui ten column grid">
                 <div class="side menu" id="sideMenu">
                     <div align="center" class="profile">
                         <br>
@@ -111,6 +111,9 @@
                         <a href="" class="item"><i class="bar chart icon"></i> <span>admin</span></a>
                         <a href="" class="item"><i class="block layout icon"></i> <span>control</span></a>
                     </div>
+                </div>
+                <div class="ui fourteen wide column">
+                    hehe
                 </div>
             </div>
 

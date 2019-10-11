@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/semantic.css'?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/main.css'?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/animate.css'?>">
+    <script type="text/javascript">$('.ui.accordion').accordion();</script>
 </head>
 
 <body>
